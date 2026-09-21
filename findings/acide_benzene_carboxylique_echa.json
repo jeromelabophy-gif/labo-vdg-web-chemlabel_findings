@@ -1,0 +1,310 @@
+{
+  "substance": "Acide benzene-carboxylique",
+  "rmlId": "100.000.562",
+  "ec": "200-618-2",
+  "cas": "65-85-0",
+  "indexNumber": "607-705-00-8",
+  "source": "https://chem.echa.europa.eu/api-substance/v1/substance/100.000.562",
+  "found_via": "GET /api-substance/v1/substance?searchText=65-85-0&pageIndex=1&pageSize=10 (Jev term cas 1)",
+  "found_by": "Jev 1.13 via OpenRouter (typesafe/jev-1.13) + Playwright 1.63.0",
+  "route_jev": [
+    "Jev term cas ({\"en\":0,\"cas\":1,\"ec\":0,\"fr\":0}) -> 65-85-0",
+    "GET /api-substance/v1/substance?searchText=65-85-0&pageIndex=1&pageSize=10 -> rmlId 100.000.562 (Benzoic acid)",
+    "GET /api-substance/v1/substance/100.000.562 -> Benzoic acid EC 200-618-2 CAS 65-85-0 Index 607-705-00-8",
+    "GET /api-cnl-inventory/prominent/overview/info/100.000.562 -> 1 harmonised, primary cid 214921 (607-705-00-8)",
+    "GET /api-cnl-inventory/prominent/overview/classifications/harmonised/214921 -> 3 class",
+    "GET /api-cnl-inventory/harmonized/specific-concentration-limits/214921 -> 0 SCL (Jev hasSCL 0.18)"
+  ],
+  "harmonised_url_pattern": "https://chem.echa.europa.eu/100.000.562/harmonised/214921",
+  "harmonised_overview": [
+    {
+      "classificationId": "214921",
+      "rmlId": "100.000.562",
+      "indexNumber": "607-705-00-8",
+      "type": "harmonised",
+      "totalHarmonisedClassifications": 1,
+      "totalIndustryClassifications": 27,
+      "displayOrder": 1,
+      "chemicalName": "benzoic acid",
+      "atpCodeName": "ATP06",
+      "signalWord": {
+        "signalWordCode": "Dgr",
+        "signalWordText": "Danger"
+      },
+      "isInheritedFlag": false
+    }
+  ],
+  "classificationId": "214921",
+  "harmonised_classifications": [
+    {
+      "classificationId": "214921",
+      "rmlId": "100.000.562",
+      "displayOrder": 3400,
+      "classifiedHazardId": "1623504",
+      "hazardClassAndCategoryCode": "STOT RE 1",
+      "hazardStatements": [
+        {
+          "hazardStatementCode": "H372",
+          "hazardStatementText": "Causes damage to organs <or state all organs affected, if known> through prolonged or repeated exposure <state route of exposure if it is conclusively proven that no other routes of exposure cause the hazard>."
+        }
+      ],
+      "targetOrganGroups": [
+        {
+          "targetOrganGroupId": "3267560",
+          "targetOrgans": [
+            {
+              "targetOrganGroupId": "3267560",
+              "targetOrganSystem": "lungs",
+              "targetOrganDisplayOrder": 1
+            }
+          ]
+        }
+      ],
+      "routeExposureGroups": [
+        {
+          "routeExposureGroupId": "3142954",
+          "routeExposures": [
+            {
+              "routeExposureGroupId": "3142954",
+              "routeOfExposure": "inhalation",
+              "routeExposureDisplayOrder": 10
+            }
+          ]
+        }
+      ],
+      "reasonForClassificationGroups": []
+    },
+    {
+      "classificationId": "214921",
+      "rmlId": "100.000.562",
+      "displayOrder": 3604,
+      "classifiedHazardId": "876940",
+      "hazardClassAndCategoryCode": "Skin Irrit. 2",
+      "hazardStatements": [
+        {
+          "hazardStatementCode": "H315",
+          "hazardStatementText": "Causes skin irritation."
+        }
+      ],
+      "targetOrganGroups": [],
+      "routeExposureGroups": [],
+      "reasonForClassificationGroups": []
+    },
+    {
+      "classificationId": "214921",
+      "rmlId": "100.000.562",
+      "displayOrder": 3700,
+      "classifiedHazardId": "639663",
+      "hazardClassAndCategoryCode": "Eye Dam. 1",
+      "hazardStatements": [
+        {
+          "hazardStatementCode": "H318",
+          "hazardStatementText": "Causes serious eye damage."
+        }
+      ],
+      "targetOrganGroups": [],
+      "routeExposureGroups": [],
+      "reasonForClassificationGroups": []
+    }
+  ],
+  "harmonized_classification": [
+    {
+      "classificationId": "214921",
+      "rmlId": "100.000.562",
+      "displayOrder": 3400,
+      "classifiedHazardId": "1623504",
+      "hazardClassAndCategoryCode": "STOT RE 1",
+      "hazardStatements": [
+        {
+          "hazardStatementCode": "H372",
+          "hazardStatementText": "Causes damage to organs <or state all organs affected, if known> through prolonged or repeated exposure <state route of exposure if it is conclusively proven that no other routes of exposure cause the hazard>."
+        }
+      ],
+      "targetOrganGroups": [
+        {
+          "targetOrganGroupId": "3267560",
+          "targetOrgans": [
+            {
+              "targetOrganGroupId": "3267560",
+              "targetOrganSystem": "lungs",
+              "targetOrganDisplayOrder": 1
+            }
+          ]
+        }
+      ],
+      "routeExposureGroups": [
+        {
+          "routeExposureGroupId": "3142954",
+          "routeExposures": [
+            {
+              "routeExposureGroupId": "3142954",
+              "routeOfExposure": "inhalation",
+              "routeExposureDisplayOrder": 10
+            }
+          ]
+        }
+      ],
+      "reasonForClassificationGroups": []
+    },
+    {
+      "classificationId": "214921",
+      "rmlId": "100.000.562",
+      "displayOrder": 3604,
+      "classifiedHazardId": "876940",
+      "hazardClassAndCategoryCode": "Skin Irrit. 2",
+      "hazardStatements": [
+        {
+          "hazardStatementCode": "H315",
+          "hazardStatementText": "Causes skin irritation."
+        }
+      ],
+      "targetOrganGroups": [],
+      "routeExposureGroups": [],
+      "reasonForClassificationGroups": []
+    },
+    {
+      "classificationId": "214921",
+      "rmlId": "100.000.562",
+      "displayOrder": 3700,
+      "classifiedHazardId": "639663",
+      "hazardClassAndCategoryCode": "Eye Dam. 1",
+      "hazardStatements": [
+        {
+          "hazardStatementCode": "H318",
+          "hazardStatementText": "Causes serious eye damage."
+        }
+      ],
+      "targetOrganGroups": [],
+      "routeExposureGroups": [],
+      "reasonForClassificationGroups": []
+    }
+  ],
+  "specific_concentration_limits": [],
+  "labelling": [
+    {
+      "classificationId": "214921",
+      "rmlId": "100.000.562",
+      "labellingHazardStatementId": "3881720",
+      "displayOrder": 1,
+      "signalWord": {
+        "signalWordCode": "Dgr",
+        "signalWordText": "Danger"
+      },
+      "hazardStatement": {
+        "hazardStatementCode": "H372",
+        "hazardStatementText": "Causes damage to organs <or state all organs affected, if known> through prolonged or repeated exposure <state route of exposure if it is conclusively proven that no other routes of exposure cause the hazard>."
+      },
+      "targetOrgans": [
+        {
+          "targetOrganGroupId": "4775119",
+          "targetOrganSystem": "lungs",
+          "targetOrganDisplayOrder": 1
+        }
+      ],
+      "routeExposures": [
+        {
+          "routeExposureGroupId": "3809422",
+          "routeOfExposure": "inhalation",
+          "routeExposureDisplayOrder": 10
+        }
+      ]
+    },
+    {
+      "classificationId": "214921",
+      "rmlId": "100.000.562",
+      "labellingHazardStatementId": "3881719",
+      "displayOrder": 2,
+      "signalWord": {
+        "signalWordCode": "Dgr",
+        "signalWordText": "Danger"
+      },
+      "hazardStatement": {
+        "hazardStatementCode": "H315",
+        "hazardStatementText": "Causes skin irritation."
+      },
+      "targetOrgans": [],
+      "routeExposures": []
+    },
+    {
+      "classificationId": "214921",
+      "rmlId": "100.000.562",
+      "labellingHazardStatementId": "3881718",
+      "displayOrder": 3,
+      "signalWord": {
+        "signalWordCode": "Dgr",
+        "signalWordText": "Danger"
+      },
+      "hazardStatement": {
+        "hazardStatementCode": "H318",
+        "hazardStatementText": "Causes serious eye damage."
+      },
+      "targetOrgans": [],
+      "routeExposures": []
+    }
+  ],
+  "notes": [],
+  "pictograms": [
+    {
+      "classificationId": "214921",
+      "code": "GHS08",
+      "text": "Health hazard",
+      "displayOrder": 3400
+    },
+    {
+      "classificationId": "214921",
+      "code": "GHS05",
+      "text": "Corrosion",
+      "displayOrder": 3700
+    }
+  ],
+  "m_factors": [],
+  "signalWord": {
+    "signalWordCode": "Dgr",
+    "signalWordText": "Danger"
+  },
+  "atp": "ATP06",
+  "jev_decisions": [
+    {
+      "step": 1,
+      "question": "term",
+      "type": "choice",
+      "choice": "cas",
+      "probabilities": {
+        "en": 0,
+        "cas": 1,
+        "ec": 0,
+        "fr": 0
+      },
+      "confidence": 1,
+      "confidence_cas": {
+        "type": "noul",
+        "noul": 0.75
+      },
+      "state": {
+        "cas": "65-85-0",
+        "ec": "200-618-2",
+        "nom": "Acide benzene-carboxylique"
+      }
+    },
+    {
+      "step": 2,
+      "question": "ok",
+      "type": "noul",
+      "noul": 0.93
+    },
+    {
+      "step": 3,
+      "question": "hasSCL",
+      "type": "noul",
+      "noul": 0.18
+    }
+  ],
+  "verified_at": "2026-09-21T21:13:33.449Z",
+  "verified_by": "Noa (Asus G834JY) via Jev 1.13 + Playwright 1.63.0",
+  "gmktec_fiche": "acide_benzoique.json",
+  "urls": {
+    "substance": "https://chem.echa.europa.eu/100.000.562",
+    "harmonised": "https://chem.echa.europa.eu/100.000.562/harmonised/214921",
+    "scl_api": "https://chem.echa.europa.eu/api-cnl-inventory/harmonized/specific-concentration-limits/214921"
+  }
+}

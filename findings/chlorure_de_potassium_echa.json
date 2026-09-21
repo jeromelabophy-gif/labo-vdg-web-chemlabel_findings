@@ -1,0 +1,83 @@
+{
+  "substance": "Chlorure de potassium",
+  "rmlId": "100.207.258",
+  "ec": "682-118-8",
+  "cas": "7447-40-7",
+  "source": "https://chem.echa.europa.eu/api-substance/v1/substance/100.207.258",
+  "found_via": "GET /api-substance/v1/substance?searchText=7447-40-7&pageIndex=1&pageSize=10 (Jev term cas 1)",
+  "found_by": "Jev 1.13 via OpenRouter (typesafe/jev-1.13) + Playwright 1.63.0",
+  "route_jev": [
+    "Jev term cas ({\"fr\":0,\"cas\":1,\"ec\":0,\"en\":0}) -> 7447-40-7",
+    "GET /api-substance/v1/substance?searchText=7447-40-7&pageIndex=1&pageSize=10 -> rmlId 100.207.258 (potassium chloride)",
+    "GET /api-substance/v1/substance/100.207.258 -> potassium chloride EC 682-118-8 CAS 7447-40-7 Index ",
+    "GET /api-cnl-inventory/prominent/overview/info/100.207.258 -> 1 harmonised, primary cid 55219 (undefined)",
+    "GET /api-cnl-inventory/prominent/overview/classifications/harmonised/55219 -> 0 class",
+    "GET /api-cnl-inventory/harmonized/specific-concentration-limits/55219 -> 0 SCL (Jev hasSCL 0.15)"
+  ],
+  "harmonised_url_pattern": "https://chem.echa.europa.eu/100.207.258/harmonised/55219",
+  "harmonised_overview": [
+    {
+      "classificationId": "55219",
+      "rmlId": "100.207.258",
+      "type": "industry",
+      "totalHarmonisedClassifications": 0,
+      "totalIndustryClassifications": 1,
+      "displayOrder": 1,
+      "signalWord": {},
+      "notClassifiedOrNoGhs": "Not classified"
+    }
+  ],
+  "classificationId": "55219",
+  "harmonised_classifications": [],
+  "harmonized_classification": [],
+  "specific_concentration_limits": [],
+  "labelling": [],
+  "notes": [],
+  "pictograms": [],
+  "m_factors": [],
+  "signalWord": {},
+  "jev_decisions": [
+    {
+      "step": 1,
+      "question": "term",
+      "type": "choice",
+      "choice": "cas",
+      "probabilities": {
+        "fr": 0,
+        "cas": 1,
+        "ec": 0,
+        "en": 0
+      },
+      "confidence": 1,
+      "confidence_cas": {
+        "type": "noul",
+        "noul": 0.75
+      },
+      "state": {
+        "cas": "7447-40-7",
+        "ec": "231-211-8",
+        "nom": "Chlorure de potassium"
+      }
+    },
+    {
+      "step": 2,
+      "question": "ok",
+      "type": "noul",
+      "noul": 0.38
+    },
+    {
+      "step": 3,
+      "question": "hasSCL",
+      "type": "noul",
+      "noul": 0.15
+    }
+  ],
+  "verified_at": "2026-09-21T21:14:57.821Z",
+  "verified_by": "Noa (Asus G834JY) via Jev 1.13 + Playwright 1.63.0",
+  "gmktec_fiche": "chlorure_de_potassium.json",
+  "urls": {
+    "substance": "https://chem.echa.europa.eu/100.207.258",
+    "harmonised": "https://chem.echa.europa.eu/100.207.258/harmonised/55219",
+    "scl_api": "https://chem.echa.europa.eu/api-cnl-inventory/harmonized/specific-concentration-limits/55219"
+  }
+}

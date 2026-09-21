@@ -1,0 +1,83 @@
+{
+  "substance": "Acetate de sodium anhydre",
+  "rmlId": "100.004.386",
+  "ec": "204-823-8",
+  "cas": "127-09-3",
+  "source": "https://chem.echa.europa.eu/api-substance/v1/substance/100.004.386",
+  "found_via": "GET /api-substance/v1/substance?searchText=127-09-3&pageIndex=1&pageSize=10 (Jev term cas 1)",
+  "found_by": "Jev 1.13 via OpenRouter (typesafe/jev-1.13) + Playwright 1.63.0",
+  "route_jev": [
+    "Jev term cas ({\"en\":0,\"cas\":1,\"ec\":0,\"fr\":0}) -> 127-09-3",
+    "GET /api-substance/v1/substance?searchText=127-09-3&pageIndex=1&pageSize=10 -> rmlId 100.004.386 (Sodium acetate)",
+    "GET /api-substance/v1/substance/100.004.386 -> Sodium acetate EC 204-823-8 CAS 127-09-3 Index ",
+    "GET /api-cnl-inventory/prominent/overview/info/100.004.386 -> 1 harmonised, primary cid 523145 (undefined)",
+    "GET /api-cnl-inventory/prominent/overview/classifications/harmonised/523145 -> 0 class",
+    "GET /api-cnl-inventory/harmonized/specific-concentration-limits/523145 -> 0 SCL (Jev hasSCL 0.16)"
+  ],
+  "harmonised_url_pattern": "https://chem.echa.europa.eu/100.004.386/harmonised/523145",
+  "harmonised_overview": [
+    {
+      "classificationId": "523145",
+      "rmlId": "100.004.386",
+      "type": "industry",
+      "totalHarmonisedClassifications": 0,
+      "totalIndustryClassifications": 8,
+      "displayOrder": 1,
+      "signalWord": {},
+      "notClassifiedOrNoGhs": "Not classified"
+    }
+  ],
+  "classificationId": "523145",
+  "harmonised_classifications": [],
+  "harmonized_classification": [],
+  "specific_concentration_limits": [],
+  "labelling": [],
+  "notes": [],
+  "pictograms": [],
+  "m_factors": [],
+  "signalWord": {},
+  "jev_decisions": [
+    {
+      "step": 1,
+      "question": "term",
+      "type": "choice",
+      "choice": "cas",
+      "probabilities": {
+        "en": 0,
+        "cas": 1,
+        "ec": 0,
+        "fr": 0
+      },
+      "confidence": 1,
+      "confidence_cas": {
+        "type": "noul",
+        "noul": 0.67
+      },
+      "state": {
+        "cas": "127-09-3",
+        "ec": null,
+        "nom": "Acetate de sodium anhydre"
+      }
+    },
+    {
+      "step": 2,
+      "question": "ok",
+      "type": "noul",
+      "noul": 0.8
+    },
+    {
+      "step": 3,
+      "question": "hasSCL",
+      "type": "noul",
+      "noul": 0.16
+    }
+  ],
+  "verified_at": "2026-09-21T21:13:08.138Z",
+  "verified_by": "Noa (Asus G834JY) via Jev 1.13 + Playwright 1.63.0",
+  "gmktec_fiche": "acetate_de_sodium_anhydre.json",
+  "urls": {
+    "substance": "https://chem.echa.europa.eu/100.004.386",
+    "harmonised": "https://chem.echa.europa.eu/100.004.386/harmonised/523145",
+    "scl_api": "https://chem.echa.europa.eu/api-cnl-inventory/harmonized/specific-concentration-limits/523145"
+  }
+}

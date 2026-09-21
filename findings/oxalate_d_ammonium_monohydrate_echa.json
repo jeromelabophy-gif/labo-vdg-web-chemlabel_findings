@@ -1,0 +1,88 @@
+{
+  "substance": "Oxalate d'ammonium monohydrate",
+  "rmlId": "100.119.180",
+  "ec": "611-933-3",
+  "cas": "6009-70-7",
+  "source": "https://chem.echa.europa.eu/api-substance/v1/substance/100.119.180",
+  "found_via": "GET /api-substance/v1/substance?searchText=6009-70-7&pageIndex=1&pageSize=10 (Jev term cas 1)",
+  "found_by": "Jev 1.13 via OpenRouter (typesafe/jev-1.13) + Playwright 1.63.0",
+  "route_jev": [
+    "Jev term cas ({\"ec\":0,\"cas\":1,\"fr\":0,\"en\":0}) -> 6009-70-7",
+    "GET /api-substance/v1/substance?searchText=6009-70-7&pageIndex=1&pageSize=10 -> rmlId 100.119.180 (Ammonium oxalate monohydrate)",
+    "GET /api-substance/v1/substance/100.119.180 -> Ammonium oxalate monohydrate EC 611-933-3 CAS 6009-70-7 Index ",
+    "GET /api-cnl-inventory/prominent/overview/info/100.119.180 -> 1 harmonised, primary cid 471983 (undefined)",
+    "GET /api-cnl-inventory/prominent/overview/classifications/harmonised/471983 -> 0 class",
+    "GET /api-cnl-inventory/harmonized/specific-concentration-limits/471983 -> 0 SCL (Jev hasSCL 0.21)"
+  ],
+  "harmonised_url_pattern": "https://chem.echa.europa.eu/100.119.180/harmonised/471983",
+  "harmonised_overview": [
+    {
+      "classificationId": "471983",
+      "rmlId": "100.119.180",
+      "type": "industry",
+      "totalHarmonisedClassifications": 0,
+      "totalIndustryClassifications": 4,
+      "displayOrder": 1,
+      "signalWord": {
+        "signalWordCode": "Wng",
+        "signalWordText": "Warning"
+      }
+    }
+  ],
+  "classificationId": "471983",
+  "harmonised_classifications": [],
+  "harmonized_classification": [],
+  "specific_concentration_limits": [],
+  "labelling": [],
+  "notes": [],
+  "pictograms": [],
+  "m_factors": [],
+  "signalWord": {
+    "signalWordCode": "Wng",
+    "signalWordText": "Warning"
+  },
+  "jev_decisions": [
+    {
+      "step": 1,
+      "question": "term",
+      "type": "choice",
+      "choice": "cas",
+      "probabilities": {
+        "ec": 0,
+        "cas": 1,
+        "fr": 0,
+        "en": 0
+      },
+      "confidence": 1,
+      "confidence_cas": {
+        "type": "noul",
+        "noul": 0.66
+      },
+      "state": {
+        "cas": "6009-70-7",
+        "ec": null,
+        "nom": "Oxalate d'ammonium monohydrate"
+      }
+    },
+    {
+      "step": 2,
+      "question": "ok",
+      "type": "noul",
+      "noul": 0.83
+    },
+    {
+      "step": 3,
+      "question": "hasSCL",
+      "type": "noul",
+      "noul": 0.21
+    }
+  ],
+  "verified_at": "2026-09-21T21:17:11.072Z",
+  "verified_by": "Noa (Asus G834JY) via Jev 1.13 + Playwright 1.63.0",
+  "gmktec_fiche": "oxalate_dammonium_monohydrate.json",
+  "urls": {
+    "substance": "https://chem.echa.europa.eu/100.119.180",
+    "harmonised": "https://chem.echa.europa.eu/100.119.180/harmonised/471983",
+    "scl_api": "https://chem.echa.europa.eu/api-cnl-inventory/harmonized/specific-concentration-limits/471983"
+  }
+}

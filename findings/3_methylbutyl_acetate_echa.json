@@ -1,0 +1,179 @@
+{
+  "substance": "3-methylbutyl acetate",
+  "rmlId": "100.004.240",
+  "ec": "204-662-3",
+  "cas": "123-92-2",
+  "indexNumber": "607-130-00-2",
+  "source": "https://chem.echa.europa.eu/api-substance/v1/substance/100.004.240",
+  "found_via": "GET /api-substance/v1/substance?searchText=123-92-2&pageIndex=1&pageSize=10 (Jev term cas 1)",
+  "found_by": "Jev 1.13 via OpenRouter (typesafe/jev-1.13) + Playwright 1.63.0",
+  "route_jev": [
+    "Jev term cas ({\"ec\":0,\"fr\":0,\"cas\":1,\"en\":0}) -> 123-92-2",
+    "GET /api-substance/v1/substance?searchText=123-92-2&pageIndex=1&pageSize=10 -> rmlId 100.004.240 (Isopentyl acetate)",
+    "GET /api-substance/v1/substance/100.004.240 -> Isopentyl acetate EC 204-662-3 CAS 123-92-2 Index 607-130-00-2",
+    "GET /api-cnl-inventory/prominent/overview/info/100.004.240 -> 1 harmonised, primary cid 226201 (607-130-00-2)",
+    "GET /api-cnl-inventory/prominent/overview/classifications/harmonised/226201 -> 1 class",
+    "GET /api-cnl-inventory/harmonized/specific-concentration-limits/226201 -> 0 SCL (Jev hasSCL 0.2)"
+  ],
+  "harmonised_url_pattern": "https://chem.echa.europa.eu/100.004.240/harmonised/226201",
+  "harmonised_overview": [
+    {
+      "classificationId": "226201",
+      "rmlId": "100.004.240",
+      "indexNumber": "607-130-00-2",
+      "type": "harmonised",
+      "totalHarmonisedClassifications": 1,
+      "totalIndustryClassifications": 9,
+      "displayOrder": 1,
+      "chemicalName": "isopentyl acetate",
+      "atpCodeName": "CLP00",
+      "signalWord": {
+        "signalWordCode": "Wng",
+        "signalWordText": "Warning"
+      },
+      "isInheritedFlag": false,
+      "harmonisedSubstanceVariant": "liquid (implied by Flam. Liq. 3)"
+    }
+  ],
+  "classificationId": "226201",
+  "harmonised_classifications": [
+    {
+      "classificationId": "226201",
+      "rmlId": "100.004.240",
+      "displayOrder": 1502,
+      "classifiedHazardId": "861582",
+      "hazardClassAndCategoryCode": "Flam. Liq. 3",
+      "hazardStatements": [
+        {
+          "hazardStatementCode": "H226",
+          "hazardStatementText": "Flammable liquid and vapour."
+        }
+      ],
+      "targetOrganGroups": [],
+      "routeExposureGroups": [],
+      "reasonForClassificationGroups": []
+    }
+  ],
+  "harmonized_classification": [
+    {
+      "classificationId": "226201",
+      "rmlId": "100.004.240",
+      "displayOrder": 1502,
+      "classifiedHazardId": "861582",
+      "hazardClassAndCategoryCode": "Flam. Liq. 3",
+      "hazardStatements": [
+        {
+          "hazardStatementCode": "H226",
+          "hazardStatementText": "Flammable liquid and vapour."
+        }
+      ],
+      "targetOrganGroups": [],
+      "routeExposureGroups": [],
+      "reasonForClassificationGroups": []
+    }
+  ],
+  "specific_concentration_limits": [],
+  "labelling": [
+    {
+      "classificationId": "226201",
+      "rmlId": "100.004.240",
+      "labellingHazardStatementId": "3917261",
+      "displayOrder": 1,
+      "signalWord": {
+        "signalWordCode": "Wng",
+        "signalWordText": "Warning"
+      },
+      "hazardStatement": {
+        "hazardStatementCode": "H226",
+        "hazardStatementText": "Flammable liquid and vapour."
+      },
+      "targetOrgans": [],
+      "routeExposures": []
+    },
+    {
+      "classificationId": "226201",
+      "rmlId": "100.004.240",
+      "labellingHazardStatementId": "3917260",
+      "displayOrder": 2,
+      "signalWord": {
+        "signalWordCode": "Wng",
+        "signalWordText": "Warning"
+      },
+      "hazardStatement": {
+        "hazardStatementCode": "EUH066",
+        "hazardStatementText": "Repeated exposure may cause skin dryness or cracking."
+      },
+      "targetOrgans": [],
+      "routeExposures": []
+    }
+  ],
+  "notes": [
+    {
+      "classificationId": "226201",
+      "note": {
+        "noteId": "2728274",
+        "noteCode": "C",
+        "noteText": "Some organic substances may be marketed either in a specific isomeric form or as a mixture of several isomers.\nIn this case the supplier must state on the label whether the substance is a specific isomer or a mixture of isomers."
+      },
+      "displayOrder": 3
+    }
+  ],
+  "pictograms": [
+    {
+      "classificationId": "226201",
+      "code": "GHS02",
+      "text": "Flame",
+      "displayOrder": 1502
+    }
+  ],
+  "m_factors": [],
+  "signalWord": {
+    "signalWordCode": "Wng",
+    "signalWordText": "Warning"
+  },
+  "atp": "CLP00",
+  "jev_decisions": [
+    {
+      "step": 1,
+      "question": "term",
+      "type": "choice",
+      "choice": "cas",
+      "probabilities": {
+        "ec": 0,
+        "fr": 0,
+        "cas": 1,
+        "en": 0
+      },
+      "confidence": 1,
+      "confidence_cas": {
+        "type": "noul",
+        "noul": 0.75
+      },
+      "state": {
+        "cas": "123-92-2",
+        "ec": "204-662-3",
+        "nom": "3-methylbutyl acetate"
+      }
+    },
+    {
+      "step": 2,
+      "question": "ok",
+      "type": "noul",
+      "noul": 0.98
+    },
+    {
+      "step": 3,
+      "question": "hasSCL",
+      "type": "noul",
+      "noul": 0.2
+    }
+  ],
+  "verified_at": "2026-09-21T21:13:18.409Z",
+  "verified_by": "Noa (Asus G834JY) via Jev 1.13 + Playwright 1.63.0",
+  "gmktec_fiche": "acetate_isoamyle.json",
+  "urls": {
+    "substance": "https://chem.echa.europa.eu/100.004.240",
+    "harmonised": "https://chem.echa.europa.eu/100.004.240/harmonised/226201",
+    "scl_api": "https://chem.echa.europa.eu/api-cnl-inventory/harmonized/specific-concentration-limits/226201"
+  }
+}

@@ -1,0 +1,293 @@
+{
+  "substance": "Ethylamine",
+  "rmlId": "100.000.759",
+  "ec": "200-834-7",
+  "cas": "75-04-7",
+  "indexNumber": "612-002-00-4",
+  "source": "https://chem.echa.europa.eu/api-substance/v1/substance/100.000.759",
+  "found_via": "GET /api-substance/v1/substance?searchText=75-04-7&pageIndex=1&pageSize=10 (Jev term cas 1)",
+  "found_by": "Jev 1.13 via OpenRouter (typesafe/jev-1.13) + Playwright 1.63.0",
+  "route_jev": [
+    "Jev term cas ({\"cas\":1,\"en\":0,\"fr\":0,\"ec\":0}) -> 75-04-7",
+    "GET /api-substance/v1/substance?searchText=75-04-7&pageIndex=1&pageSize=10 -> rmlId 100.000.759 (Ethylamine)",
+    "GET /api-substance/v1/substance/100.000.759 -> Ethylamine EC 200-834-7 CAS 75-04-7 Index 612-002-00-4",
+    "GET /api-cnl-inventory/prominent/overview/info/100.000.759 -> 1 harmonised, primary cid 139319 (612-002-00-4)",
+    "GET /api-cnl-inventory/prominent/overview/classifications/harmonised/139319 -> 4 class",
+    "GET /api-cnl-inventory/harmonized/specific-concentration-limits/139319 -> 0 SCL (Jev hasSCL 0.14)"
+  ],
+  "harmonised_url_pattern": "https://chem.echa.europa.eu/100.000.759/harmonised/139319",
+  "harmonised_overview": [
+    {
+      "classificationId": "139319",
+      "rmlId": "100.000.759",
+      "indexNumber": "612-002-00-4",
+      "type": "harmonised",
+      "totalHarmonisedClassifications": 1,
+      "totalIndustryClassifications": 14,
+      "displayOrder": 1,
+      "chemicalName": "ethylamine",
+      "atpCodeName": "CLP00",
+      "signalWord": {
+        "signalWordCode": "Dgr",
+        "signalWordText": "Danger"
+      },
+      "isInheritedFlag": false,
+      "harmonisedSubstanceVariant": "gas (implied by Press. Gas)"
+    }
+  ],
+  "classificationId": "139319",
+  "harmonised_classifications": [
+    {
+      "classificationId": "139319",
+      "rmlId": "100.000.759",
+      "displayOrder": 500,
+      "classifiedHazardId": "892681",
+      "hazardClassAndCategoryCode": "Flam. Gas 1",
+      "hazardStatements": [
+        {
+          "hazardStatementCode": "H220",
+          "hazardStatementText": "Extremely flammable gas."
+        }
+      ],
+      "targetOrganGroups": [],
+      "routeExposureGroups": [],
+      "reasonForClassificationGroups": []
+    },
+    {
+      "classificationId": "139319",
+      "rmlId": "100.000.759",
+      "displayOrder": 1000,
+      "classifiedHazardId": "1701325",
+      "hazardClassAndCategoryCode": "Press. Gas",
+      "hazardStatements": [],
+      "targetOrganGroups": [],
+      "routeExposureGroups": [],
+      "reasonForClassificationGroups": []
+    },
+    {
+      "classificationId": "139319",
+      "rmlId": "100.000.759",
+      "displayOrder": 3300,
+      "classifiedHazardId": "548884",
+      "hazardClassAndCategoryCode": "STOT SE 3",
+      "hazardStatements": [
+        {
+          "hazardStatementCode": "H335",
+          "hazardStatementText": "May cause respiratory irritation."
+        }
+      ],
+      "targetOrganGroups": [],
+      "routeExposureGroups": [],
+      "reasonForClassificationGroups": []
+    },
+    {
+      "classificationId": "139319",
+      "rmlId": "100.000.759",
+      "displayOrder": 3801,
+      "classifiedHazardId": "535841",
+      "hazardClassAndCategoryCode": "Eye Irrit. 2",
+      "hazardStatements": [
+        {
+          "hazardStatementCode": "H319",
+          "hazardStatementText": "Causes serious eye irritation."
+        }
+      ],
+      "targetOrganGroups": [],
+      "routeExposureGroups": [],
+      "reasonForClassificationGroups": []
+    }
+  ],
+  "harmonized_classification": [
+    {
+      "classificationId": "139319",
+      "rmlId": "100.000.759",
+      "displayOrder": 500,
+      "classifiedHazardId": "892681",
+      "hazardClassAndCategoryCode": "Flam. Gas 1",
+      "hazardStatements": [
+        {
+          "hazardStatementCode": "H220",
+          "hazardStatementText": "Extremely flammable gas."
+        }
+      ],
+      "targetOrganGroups": [],
+      "routeExposureGroups": [],
+      "reasonForClassificationGroups": []
+    },
+    {
+      "classificationId": "139319",
+      "rmlId": "100.000.759",
+      "displayOrder": 1000,
+      "classifiedHazardId": "1701325",
+      "hazardClassAndCategoryCode": "Press. Gas",
+      "hazardStatements": [],
+      "targetOrganGroups": [],
+      "routeExposureGroups": [],
+      "reasonForClassificationGroups": []
+    },
+    {
+      "classificationId": "139319",
+      "rmlId": "100.000.759",
+      "displayOrder": 3300,
+      "classifiedHazardId": "548884",
+      "hazardClassAndCategoryCode": "STOT SE 3",
+      "hazardStatements": [
+        {
+          "hazardStatementCode": "H335",
+          "hazardStatementText": "May cause respiratory irritation."
+        }
+      ],
+      "targetOrganGroups": [],
+      "routeExposureGroups": [],
+      "reasonForClassificationGroups": []
+    },
+    {
+      "classificationId": "139319",
+      "rmlId": "100.000.759",
+      "displayOrder": 3801,
+      "classifiedHazardId": "535841",
+      "hazardClassAndCategoryCode": "Eye Irrit. 2",
+      "hazardStatements": [
+        {
+          "hazardStatementCode": "H319",
+          "hazardStatementText": "Causes serious eye irritation."
+        }
+      ],
+      "targetOrganGroups": [],
+      "routeExposureGroups": [],
+      "reasonForClassificationGroups": []
+    }
+  ],
+  "specific_concentration_limits": [],
+  "labelling": [
+    {
+      "classificationId": "139319",
+      "rmlId": "100.000.759",
+      "labellingHazardStatementId": "3925733",
+      "displayOrder": 1,
+      "signalWord": {
+        "signalWordCode": "Dgr",
+        "signalWordText": "Danger"
+      },
+      "hazardStatement": {
+        "hazardStatementCode": "H220",
+        "hazardStatementText": "Extremely flammable gas."
+      },
+      "targetOrgans": [],
+      "routeExposures": []
+    },
+    {
+      "classificationId": "139319",
+      "rmlId": "100.000.759",
+      "labellingHazardStatementId": "3925731",
+      "displayOrder": 2,
+      "signalWord": {
+        "signalWordCode": "Dgr",
+        "signalWordText": "Danger"
+      },
+      "hazardStatement": {
+        "hazardStatementCode": "H335",
+        "hazardStatementText": "May cause respiratory irritation."
+      },
+      "targetOrgans": [],
+      "routeExposures": []
+    },
+    {
+      "classificationId": "139319",
+      "rmlId": "100.000.759",
+      "labellingHazardStatementId": "3925729",
+      "displayOrder": 3,
+      "signalWord": {
+        "signalWordCode": "Dgr",
+        "signalWordText": "Danger"
+      },
+      "hazardStatement": {
+        "hazardStatementCode": "H319",
+        "hazardStatementText": "Causes serious eye irritation."
+      },
+      "targetOrgans": [],
+      "routeExposures": []
+    }
+  ],
+  "notes": [
+    {
+      "classificationId": "139319",
+      "note": {
+        "noteId": "2731210",
+        "noteCode": "U",
+        "noteText": "When put on the market gases have to be classified as ‘Gases under pressure’, in one of the groups compressed gas, liquefied gas, refrig­erated liquefied gas or dissolved gas. The group depends on the physical state in which the gas is packaged and therefore has to be assigned case by case."
+      },
+      "displayOrder": 19
+    }
+  ],
+  "pictograms": [
+    {
+      "classificationId": "139319",
+      "code": "GHS02",
+      "text": "Flame",
+      "displayOrder": 500
+    },
+    {
+      "classificationId": "139319",
+      "code": "GHS04",
+      "text": "Gas cylinder",
+      "displayOrder": 1000
+    },
+    {
+      "classificationId": "139319",
+      "code": "GHS07",
+      "text": "Exclamation mark",
+      "displayOrder": 3300
+    }
+  ],
+  "m_factors": [],
+  "signalWord": {
+    "signalWordCode": "Dgr",
+    "signalWordText": "Danger"
+  },
+  "atp": "CLP00",
+  "jev_decisions": [
+    {
+      "step": 1,
+      "question": "term",
+      "type": "choice",
+      "choice": "cas",
+      "probabilities": {
+        "cas": 1,
+        "en": 0,
+        "fr": 0,
+        "ec": 0
+      },
+      "confidence": 1,
+      "confidence_cas": {
+        "type": "noul",
+        "noul": 0.65
+      },
+      "state": {
+        "cas": "75-04-7",
+        "ec": null,
+        "nom": "Ethylamine"
+      }
+    },
+    {
+      "step": 2,
+      "question": "ok",
+      "type": "noul",
+      "noul": 0.86
+    },
+    {
+      "step": 3,
+      "question": "hasSCL",
+      "type": "noul",
+      "noul": 0.14
+    }
+  ],
+  "verified_at": "2026-09-21T21:15:53.514Z",
+  "verified_by": "Noa (Asus G834JY) via Jev 1.13 + Playwright 1.63.0",
+  "gmktec_fiche": "ethylamine.json",
+  "urls": {
+    "substance": "https://chem.echa.europa.eu/100.000.759",
+    "harmonised": "https://chem.echa.europa.eu/100.000.759/harmonised/139319",
+    "scl_api": "https://chem.echa.europa.eu/api-cnl-inventory/harmonized/specific-concentration-limits/139319"
+  }
+}

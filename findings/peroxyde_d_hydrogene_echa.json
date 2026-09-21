@@ -1,0 +1,452 @@
+{
+  "substance": "Peroxyde d'hydrogene",
+  "rmlId": "100.028.878",
+  "ec": "231-765-0",
+  "cas": "7722-84-1",
+  "indexNumber": "008-003-00-9",
+  "source": "https://chem.echa.europa.eu/api-substance/v1/substance/100.028.878",
+  "found_via": "GET /api-substance/v1/substance?searchText=7722-84-1&pageIndex=1&pageSize=10 (Jev term cas 1)",
+  "found_by": "Jev 1.13 via OpenRouter (typesafe/jev-1.13) + Playwright 1.63.0",
+  "route_jev": [
+    "Jev term cas ({\"ec\":0,\"fr\":0,\"en\":0,\"cas\":1}) -> 7722-84-1",
+    "GET /api-substance/v1/substance?searchText=7722-84-1&pageIndex=1&pageSize=10 -> rmlId 100.028.878 (Hydrogen peroxide)",
+    "GET /api-substance/v1/substance/100.028.878 -> Hydrogen peroxide EC 231-765-0 CAS 7722-84-1 Index 008-003-00-9",
+    "GET /api-cnl-inventory/prominent/overview/info/100.028.878 -> 1 harmonised, primary cid 107196 (008-003-00-9)",
+    "GET /api-cnl-inventory/prominent/overview/classifications/harmonised/107196 -> 4 class",
+    "GET /api-cnl-inventory/harmonized/specific-concentration-limits/107196 -> 9 SCL (Jev hasSCL 0.65)"
+  ],
+  "harmonised_url_pattern": "https://chem.echa.europa.eu/100.028.878/harmonised/107196",
+  "harmonised_overview": [
+    {
+      "classificationId": "107196",
+      "rmlId": "100.028.878",
+      "indexNumber": "008-003-00-9",
+      "type": "harmonised",
+      "totalHarmonisedClassifications": 1,
+      "totalIndustryClassifications": 28,
+      "displayOrder": 1,
+      "chemicalName": "hydrogen peroxide solution … %",
+      "atpCodeName": "CLP00",
+      "signalWord": {
+        "signalWordCode": "Dgr",
+        "signalWordText": "Danger"
+      },
+      "isInheritedFlag": false,
+      "harmonisedSubstanceVariant": "liquid (implied by Ox. Liq. 1)"
+    }
+  ],
+  "classificationId": "107196",
+  "harmonised_classifications": [
+    {
+      "classificationId": "107196",
+      "rmlId": "100.028.878",
+      "displayOrder": 2200,
+      "classifiedHazardId": "795717",
+      "hazardClassAndCategoryCode": "Ox. Liq. 1",
+      "hazardStatements": [
+        {
+          "hazardStatementCode": "H271",
+          "hazardStatementText": "May cause fire or explosion; strong oxidiser."
+        }
+      ],
+      "targetOrganGroups": [],
+      "routeExposureGroups": [],
+      "reasonForClassificationGroups": []
+    },
+    {
+      "classificationId": "107196",
+      "rmlId": "100.028.878",
+      "displayOrder": 3103,
+      "classifiedHazardId": "2082208",
+      "hazardClassAndCategoryCode": "Acute Tox. 4 (Inhalation)*",
+      "hazardStatements": [
+        {
+          "hazardStatementCode": "H332",
+          "hazardStatementText": "Harmful if inhaled."
+        }
+      ],
+      "targetOrganGroups": [],
+      "routeExposureGroups": [],
+      "reasonForClassificationGroups": []
+    },
+    {
+      "classificationId": "107196",
+      "rmlId": "100.028.878",
+      "displayOrder": 3163,
+      "classifiedHazardId": "2041159",
+      "hazardClassAndCategoryCode": "Acute Tox. 4 (Oral)*",
+      "hazardStatements": [
+        {
+          "hazardStatementCode": "H302",
+          "hazardStatementText": "Harmful if swallowed."
+        }
+      ],
+      "targetOrganGroups": [],
+      "routeExposureGroups": [],
+      "reasonForClassificationGroups": []
+    },
+    {
+      "classificationId": "107196",
+      "rmlId": "100.028.878",
+      "displayOrder": 3501,
+      "classifiedHazardId": "534953",
+      "hazardClassAndCategoryCode": "Skin Corr. 1A",
+      "hazardStatements": [
+        {
+          "hazardStatementCode": "H314",
+          "hazardStatementText": "Causes severe skin burns and eye damage."
+        }
+      ],
+      "targetOrganGroups": [],
+      "routeExposureGroups": [],
+      "reasonForClassificationGroups": []
+    }
+  ],
+  "harmonized_classification": [
+    {
+      "classificationId": "107196",
+      "rmlId": "100.028.878",
+      "displayOrder": 2200,
+      "classifiedHazardId": "795717",
+      "hazardClassAndCategoryCode": "Ox. Liq. 1",
+      "hazardStatements": [
+        {
+          "hazardStatementCode": "H271",
+          "hazardStatementText": "May cause fire or explosion; strong oxidiser."
+        }
+      ],
+      "targetOrganGroups": [],
+      "routeExposureGroups": [],
+      "reasonForClassificationGroups": []
+    },
+    {
+      "classificationId": "107196",
+      "rmlId": "100.028.878",
+      "displayOrder": 3103,
+      "classifiedHazardId": "2082208",
+      "hazardClassAndCategoryCode": "Acute Tox. 4 (Inhalation)*",
+      "hazardStatements": [
+        {
+          "hazardStatementCode": "H332",
+          "hazardStatementText": "Harmful if inhaled."
+        }
+      ],
+      "targetOrganGroups": [],
+      "routeExposureGroups": [],
+      "reasonForClassificationGroups": []
+    },
+    {
+      "classificationId": "107196",
+      "rmlId": "100.028.878",
+      "displayOrder": 3163,
+      "classifiedHazardId": "2041159",
+      "hazardClassAndCategoryCode": "Acute Tox. 4 (Oral)*",
+      "hazardStatements": [
+        {
+          "hazardStatementCode": "H302",
+          "hazardStatementText": "Harmful if swallowed."
+        }
+      ],
+      "targetOrganGroups": [],
+      "routeExposureGroups": [],
+      "reasonForClassificationGroups": []
+    },
+    {
+      "classificationId": "107196",
+      "rmlId": "100.028.878",
+      "displayOrder": 3501,
+      "classifiedHazardId": "534953",
+      "hazardClassAndCategoryCode": "Skin Corr. 1A",
+      "hazardStatements": [
+        {
+          "hazardStatementCode": "H314",
+          "hazardStatementText": "Causes severe skin burns and eye damage."
+        }
+      ],
+      "targetOrganGroups": [],
+      "routeExposureGroups": [],
+      "reasonForClassificationGroups": []
+    }
+  ],
+  "specific_concentration_limits": [
+    {
+      "classificationId": "107196",
+      "specificConcentrationLimitId": "5271296",
+      "concentrationRange": "*",
+      "displayOrder": 10,
+      "hazards": [
+        {
+          "specificConcentrationLimitHazardId": "5283686",
+          "hazardCategoryDisplayOrder": 10
+        }
+      ]
+    },
+    {
+      "classificationId": "107196",
+      "specificConcentrationLimitId": "5265583",
+      "concentrationRange": "C ≥ 70 % ****",
+      "displayOrder": 2200,
+      "hazards": [
+        {
+          "specificConcentrationLimitHazardId": "5276179",
+          "hazardClassAndCategoryCode": "Ox. Liq. 1",
+          "hazardStatementCode": "H271",
+          "hazardStatementText": "May cause fire or explosion; strong oxidiser.",
+          "hazardCategoryDisplayOrder": 2200
+        }
+      ]
+    },
+    {
+      "classificationId": "107196",
+      "specificConcentrationLimitId": "5265992",
+      "concentrationRange": "50 % ≤ C < 70 % ****",
+      "displayOrder": 2201,
+      "hazards": [
+        {
+          "specificConcentrationLimitHazardId": "5288388",
+          "hazardClassAndCategoryCode": "Ox. Liq. 2",
+          "hazardStatementCode": "H272",
+          "hazardStatementText": "May intensify fire; oxidiser.",
+          "hazardCategoryDisplayOrder": 2201
+        }
+      ]
+    },
+    {
+      "classificationId": "107196",
+      "specificConcentrationLimitId": "5258953",
+      "concentrationRange": "C ≥ 35 %",
+      "displayOrder": 3300,
+      "hazards": [
+        {
+          "specificConcentrationLimitHazardId": "5286470",
+          "hazardClassAndCategoryCode": "STOT SE 3",
+          "hazardStatementCode": "H335",
+          "hazardStatementText": "May cause respiratory irritation.",
+          "hazardCategoryDisplayOrder": 3300
+        }
+      ]
+    },
+    {
+      "classificationId": "107196",
+      "specificConcentrationLimitId": "5264698",
+      "concentrationRange": "C ≥ 70 %",
+      "displayOrder": 3501,
+      "hazards": [
+        {
+          "specificConcentrationLimitHazardId": "5282772",
+          "hazardClassAndCategoryCode": "Skin Corr. 1A",
+          "hazardStatementCode": "H314",
+          "hazardStatementText": "Causes severe skin burns and eye damage.",
+          "hazardCategoryDisplayOrder": 3501
+        }
+      ]
+    },
+    {
+      "classificationId": "107196",
+      "specificConcentrationLimitId": "5264767",
+      "concentrationRange": "50 % ≤ C < 70 %",
+      "displayOrder": 3502,
+      "hazards": [
+        {
+          "specificConcentrationLimitHazardId": "5288528",
+          "hazardClassAndCategoryCode": "Skin Corr. 1B",
+          "hazardStatementCode": "H314",
+          "hazardStatementText": "Causes severe skin burns and eye damage.",
+          "hazardCategoryDisplayOrder": 3502
+        }
+      ]
+    },
+    {
+      "classificationId": "107196",
+      "specificConcentrationLimitId": "5259582",
+      "concentrationRange": "35 % ≤ C < 50 %",
+      "displayOrder": 3604,
+      "hazards": [
+        {
+          "specificConcentrationLimitHazardId": "5281066",
+          "hazardClassAndCategoryCode": "Skin Irrit. 2",
+          "hazardStatementCode": "H315",
+          "hazardStatementText": "Causes skin irritation.",
+          "hazardCategoryDisplayOrder": 3604
+        }
+      ]
+    },
+    {
+      "classificationId": "107196",
+      "specificConcentrationLimitId": "5269749",
+      "concentrationRange": "8 % ≤ C < 50 %",
+      "displayOrder": 3700,
+      "hazards": [
+        {
+          "specificConcentrationLimitHazardId": "5276269",
+          "hazardClassAndCategoryCode": "Eye Dam. 1",
+          "hazardStatementCode": "H318",
+          "hazardStatementText": "Causes serious eye damage.",
+          "hazardCategoryDisplayOrder": 3700
+        }
+      ]
+    },
+    {
+      "classificationId": "107196",
+      "specificConcentrationLimitId": "5264754",
+      "concentrationRange": "5 % ≤ C < 8 %",
+      "displayOrder": 3801,
+      "hazards": [
+        {
+          "specificConcentrationLimitHazardId": "5276708",
+          "hazardClassAndCategoryCode": "Eye Irrit. 2",
+          "hazardStatementCode": "H319",
+          "hazardStatementText": "Causes serious eye irritation.",
+          "hazardCategoryDisplayOrder": 3801
+        }
+      ]
+    }
+  ],
+  "labelling": [
+    {
+      "classificationId": "107196",
+      "rmlId": "100.028.878",
+      "labellingHazardStatementId": "4598026",
+      "displayOrder": 1,
+      "signalWord": {
+        "signalWordCode": "Dgr",
+        "signalWordText": "Danger"
+      },
+      "hazardStatement": {
+        "hazardStatementCode": "H271",
+        "hazardStatementText": "May cause fire or explosion; strong oxidiser."
+      },
+      "targetOrgans": [],
+      "routeExposures": []
+    },
+    {
+      "classificationId": "107196",
+      "rmlId": "100.028.878",
+      "labellingHazardStatementId": "4598025",
+      "displayOrder": 2,
+      "signalWord": {
+        "signalWordCode": "Dgr",
+        "signalWordText": "Danger"
+      },
+      "hazardStatement": {
+        "hazardStatementCode": "H332",
+        "hazardStatementText": "Harmful if inhaled."
+      },
+      "targetOrgans": [],
+      "routeExposures": []
+    },
+    {
+      "classificationId": "107196",
+      "rmlId": "100.028.878",
+      "labellingHazardStatementId": "4598024",
+      "displayOrder": 3,
+      "signalWord": {
+        "signalWordCode": "Dgr",
+        "signalWordText": "Danger"
+      },
+      "hazardStatement": {
+        "hazardStatementCode": "H302",
+        "hazardStatementText": "Harmful if swallowed."
+      },
+      "targetOrgans": [],
+      "routeExposures": []
+    },
+    {
+      "classificationId": "107196",
+      "rmlId": "100.028.878",
+      "labellingHazardStatementId": "4598023",
+      "displayOrder": 4,
+      "signalWord": {
+        "signalWordCode": "Dgr",
+        "signalWordText": "Danger"
+      },
+      "hazardStatement": {
+        "hazardStatementCode": "H314",
+        "hazardStatementText": "Causes severe skin burns and eye damage."
+      },
+      "targetOrgans": [],
+      "routeExposures": []
+    }
+  ],
+  "notes": [
+    {
+      "classificationId": "107196",
+      "note": {
+        "noteId": "2731118",
+        "noteCode": "B",
+        "noteText": "Some substances (acids, bases, etc.) are placed on the market in aqueous solutions at various concentrations and, therefore, these solutions require different classification and labelling since the hazards vary at different concentrations.\nIn Part 3 entries with Note B have a general designation of the following type: ‘nitric acid ... %’.\nIn this case the supplier must state the percentage concentration of the solution on the label. Unless otherwise stated, it is assumed that the percentage concentration is calculated on a weight/weight basis."
+      },
+      "displayOrder": 2
+    }
+  ],
+  "pictograms": [
+    {
+      "classificationId": "107196",
+      "code": "GHS03",
+      "text": "Flame over circle",
+      "displayOrder": 2200
+    },
+    {
+      "classificationId": "107196",
+      "code": "GHS07",
+      "text": "Exclamation mark",
+      "displayOrder": 3103
+    },
+    {
+      "classificationId": "107196",
+      "code": "GHS05",
+      "text": "Corrosion",
+      "displayOrder": 3501
+    }
+  ],
+  "m_factors": [],
+  "signalWord": {
+    "signalWordCode": "Dgr",
+    "signalWordText": "Danger"
+  },
+  "atp": "CLP00",
+  "jev_decisions": [
+    {
+      "step": 1,
+      "question": "term",
+      "type": "choice",
+      "choice": "cas",
+      "probabilities": {
+        "ec": 0,
+        "fr": 0,
+        "en": 0,
+        "cas": 1
+      },
+      "confidence": 1,
+      "confidence_cas": {
+        "type": "noul",
+        "noul": 0.73
+      },
+      "state": {
+        "cas": "7722-84-1",
+        "ec": "231-765-0",
+        "nom": "Peroxyde d'hydrogene"
+      }
+    },
+    {
+      "step": 2,
+      "question": "ok",
+      "type": "noul",
+      "noul": 0.97
+    },
+    {
+      "step": 3,
+      "question": "hasSCL",
+      "type": "noul",
+      "noul": 0.65
+    }
+  ],
+  "verified_at": "2026-09-21T21:17:16.237Z",
+  "verified_by": "Noa (Asus G834JY) via Jev 1.13 + Playwright 1.63.0",
+  "gmktec_fiche": "peroxyde_dhydrogene.json",
+  "urls": {
+    "substance": "https://chem.echa.europa.eu/100.028.878",
+    "harmonised": "https://chem.echa.europa.eu/100.028.878/harmonised/107196",
+    "scl_api": "https://chem.echa.europa.eu/api-cnl-inventory/harmonized/specific-concentration-limits/107196"
+  }
+}

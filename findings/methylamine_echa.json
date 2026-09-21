@@ -1,0 +1,494 @@
+{
+  "substance": "Méthylamine",
+  "rmlId": "100.000.746",
+  "ec": "200-820-0",
+  "cas": "74-89-5",
+  "indexNumber": "612-001-00-9",
+  "source": "https://chem.echa.europa.eu/api-substance/v1/substance/100.000.746",
+  "found_via": "GET /api-substance/v1/substance?searchText=74-89-5&pageIndex=1&pageSize=10 (Jev term cas 1)",
+  "found_by": "Jev 1.13 via OpenRouter (typesafe/jev-1.13) + Playwright 1.63.0",
+  "route_jev": [
+    "Jev term cas ({\"fr\":0,\"ec\":0,\"cas\":1,\"en\":0}) -> 74-89-5",
+    "GET /api-substance/v1/substance?searchText=74-89-5&pageIndex=1&pageSize=10 -> rmlId 100.000.746 (Methylamine)",
+    "GET /api-substance/v1/substance/100.000.746 -> Methylamine EC 200-820-0 CAS 74-89-5 Index 612-001-01-6,612-001-00-9",
+    "GET /api-cnl-inventory/prominent/overview/info/100.000.746 -> 2 harmonised, primary cid 113534 (612-001-00-9)",
+    "GET /api-cnl-inventory/prominent/overview/classifications/harmonised/113534 -> 6 class",
+    "GET /api-cnl-inventory/harmonized/specific-concentration-limits/113534 -> 5 SCL (Jev hasSCL 0.59)"
+  ],
+  "harmonised_url_pattern": "https://chem.echa.europa.eu/100.000.746/harmonised/113534",
+  "harmonised_overview": [
+    {
+      "classificationId": "113534",
+      "rmlId": "100.000.746",
+      "indexNumber": "612-001-00-9",
+      "type": "harmonised",
+      "totalHarmonisedClassifications": 2,
+      "totalIndustryClassifications": 18,
+      "displayOrder": 1,
+      "chemicalName": "mono-methylamine",
+      "atpCodeName": "CLP00",
+      "signalWord": {
+        "signalWordCode": "Dgr",
+        "signalWordText": "Danger"
+      },
+      "isInheritedFlag": false,
+      "harmonisedSubstanceVariant": "gas (implied by Press. Gas)"
+    },
+    {
+      "classificationId": "113535",
+      "rmlId": "100.000.746",
+      "indexNumber": "612-001-01-6",
+      "type": "harmonised",
+      "totalHarmonisedClassifications": 2,
+      "totalIndustryClassifications": 18,
+      "displayOrder": 2,
+      "chemicalName": "mono-methylamine ... %",
+      "atpCodeName": "CLP00",
+      "signalWord": {
+        "signalWordCode": "Dgr",
+        "signalWordText": "Danger"
+      },
+      "isInheritedFlag": false,
+      "harmonisedSubstanceVariant": "liquid (implied by Flam. Liq. 1)"
+    }
+  ],
+  "classificationId": "113534",
+  "harmonised_classifications": [
+    {
+      "classificationId": "113534",
+      "rmlId": "100.000.746",
+      "displayOrder": 500,
+      "classifiedHazardId": "2048684",
+      "hazardClassAndCategoryCode": "Flam. Gas 1",
+      "hazardStatements": [
+        {
+          "hazardStatementCode": "H220",
+          "hazardStatementText": "Extremely flammable gas."
+        }
+      ],
+      "targetOrganGroups": [],
+      "routeExposureGroups": [],
+      "reasonForClassificationGroups": []
+    },
+    {
+      "classificationId": "113534",
+      "rmlId": "100.000.746",
+      "displayOrder": 1000,
+      "classifiedHazardId": "549774",
+      "hazardClassAndCategoryCode": "Press. Gas",
+      "hazardStatements": [],
+      "targetOrganGroups": [],
+      "routeExposureGroups": [],
+      "reasonForClassificationGroups": []
+    },
+    {
+      "classificationId": "113534",
+      "rmlId": "100.000.746",
+      "displayOrder": 3103,
+      "classifiedHazardId": "1731011",
+      "hazardClassAndCategoryCode": "Acute Tox. 4 (Inhalation)*",
+      "hazardStatements": [
+        {
+          "hazardStatementCode": "H332",
+          "hazardStatementText": "Harmful if inhaled."
+        }
+      ],
+      "targetOrganGroups": [],
+      "routeExposureGroups": [],
+      "reasonForClassificationGroups": []
+    },
+    {
+      "classificationId": "113534",
+      "rmlId": "100.000.746",
+      "displayOrder": 3300,
+      "classifiedHazardId": "874532",
+      "hazardClassAndCategoryCode": "STOT SE 3",
+      "hazardStatements": [
+        {
+          "hazardStatementCode": "H335",
+          "hazardStatementText": "May cause respiratory irritation."
+        }
+      ],
+      "targetOrganGroups": [],
+      "routeExposureGroups": [],
+      "reasonForClassificationGroups": []
+    },
+    {
+      "classificationId": "113534",
+      "rmlId": "100.000.746",
+      "displayOrder": 3604,
+      "classifiedHazardId": "1659315",
+      "hazardClassAndCategoryCode": "Skin Irrit. 2",
+      "hazardStatements": [
+        {
+          "hazardStatementCode": "H315",
+          "hazardStatementText": "Causes skin irritation."
+        }
+      ],
+      "targetOrganGroups": [],
+      "routeExposureGroups": [],
+      "reasonForClassificationGroups": []
+    },
+    {
+      "classificationId": "113534",
+      "rmlId": "100.000.746",
+      "displayOrder": 3700,
+      "classifiedHazardId": "540104",
+      "hazardClassAndCategoryCode": "Eye Dam. 1",
+      "hazardStatements": [
+        {
+          "hazardStatementCode": "H318",
+          "hazardStatementText": "Causes serious eye damage."
+        }
+      ],
+      "targetOrganGroups": [],
+      "routeExposureGroups": [],
+      "reasonForClassificationGroups": []
+    }
+  ],
+  "harmonized_classification": [
+    {
+      "classificationId": "113534",
+      "rmlId": "100.000.746",
+      "displayOrder": 500,
+      "classifiedHazardId": "2048684",
+      "hazardClassAndCategoryCode": "Flam. Gas 1",
+      "hazardStatements": [
+        {
+          "hazardStatementCode": "H220",
+          "hazardStatementText": "Extremely flammable gas."
+        }
+      ],
+      "targetOrganGroups": [],
+      "routeExposureGroups": [],
+      "reasonForClassificationGroups": []
+    },
+    {
+      "classificationId": "113534",
+      "rmlId": "100.000.746",
+      "displayOrder": 1000,
+      "classifiedHazardId": "549774",
+      "hazardClassAndCategoryCode": "Press. Gas",
+      "hazardStatements": [],
+      "targetOrganGroups": [],
+      "routeExposureGroups": [],
+      "reasonForClassificationGroups": []
+    },
+    {
+      "classificationId": "113534",
+      "rmlId": "100.000.746",
+      "displayOrder": 3103,
+      "classifiedHazardId": "1731011",
+      "hazardClassAndCategoryCode": "Acute Tox. 4 (Inhalation)*",
+      "hazardStatements": [
+        {
+          "hazardStatementCode": "H332",
+          "hazardStatementText": "Harmful if inhaled."
+        }
+      ],
+      "targetOrganGroups": [],
+      "routeExposureGroups": [],
+      "reasonForClassificationGroups": []
+    },
+    {
+      "classificationId": "113534",
+      "rmlId": "100.000.746",
+      "displayOrder": 3300,
+      "classifiedHazardId": "874532",
+      "hazardClassAndCategoryCode": "STOT SE 3",
+      "hazardStatements": [
+        {
+          "hazardStatementCode": "H335",
+          "hazardStatementText": "May cause respiratory irritation."
+        }
+      ],
+      "targetOrganGroups": [],
+      "routeExposureGroups": [],
+      "reasonForClassificationGroups": []
+    },
+    {
+      "classificationId": "113534",
+      "rmlId": "100.000.746",
+      "displayOrder": 3604,
+      "classifiedHazardId": "1659315",
+      "hazardClassAndCategoryCode": "Skin Irrit. 2",
+      "hazardStatements": [
+        {
+          "hazardStatementCode": "H315",
+          "hazardStatementText": "Causes skin irritation."
+        }
+      ],
+      "targetOrganGroups": [],
+      "routeExposureGroups": [],
+      "reasonForClassificationGroups": []
+    },
+    {
+      "classificationId": "113534",
+      "rmlId": "100.000.746",
+      "displayOrder": 3700,
+      "classifiedHazardId": "540104",
+      "hazardClassAndCategoryCode": "Eye Dam. 1",
+      "hazardStatements": [
+        {
+          "hazardStatementCode": "H318",
+          "hazardStatementText": "Causes serious eye damage."
+        }
+      ],
+      "targetOrganGroups": [],
+      "routeExposureGroups": [],
+      "reasonForClassificationGroups": []
+    }
+  ],
+  "specific_concentration_limits": [
+    {
+      "classificationId": "113534",
+      "specificConcentrationLimitId": "5270908",
+      "concentrationRange": "*",
+      "displayOrder": 10,
+      "hazards": [
+        {
+          "specificConcentrationLimitHazardId": "5283315",
+          "hazardCategoryDisplayOrder": 10
+        }
+      ]
+    },
+    {
+      "classificationId": "113534",
+      "specificConcentrationLimitId": "5265650",
+      "concentrationRange": "C ≥ 5 %",
+      "displayOrder": 3300,
+      "hazards": [
+        {
+          "specificConcentrationLimitHazardId": "5281784",
+          "hazardClassAndCategoryCode": "STOT SE 3",
+          "hazardStatementCode": "H335",
+          "hazardStatementText": "May cause respiratory irritation.",
+          "hazardCategoryDisplayOrder": 3300
+        }
+      ]
+    },
+    {
+      "classificationId": "113534",
+      "specificConcentrationLimitId": "5264522",
+      "concentrationRange": "C ≥ 5 %",
+      "displayOrder": 3604,
+      "hazards": [
+        {
+          "specificConcentrationLimitHazardId": "5276576",
+          "hazardClassAndCategoryCode": "Skin Irrit. 2",
+          "hazardStatementCode": "H315",
+          "hazardStatementText": "Causes skin irritation.",
+          "hazardCategoryDisplayOrder": 3604
+        }
+      ]
+    },
+    {
+      "classificationId": "113534",
+      "specificConcentrationLimitId": "5262912",
+      "concentrationRange": "C ≥ 5 %",
+      "displayOrder": 3700,
+      "hazards": [
+        {
+          "specificConcentrationLimitHazardId": "5287099",
+          "hazardClassAndCategoryCode": "Eye Dam. 1",
+          "hazardStatementCode": "H318",
+          "hazardStatementText": "Causes serious eye damage.",
+          "hazardCategoryDisplayOrder": 3700
+        }
+      ]
+    },
+    {
+      "classificationId": "113534",
+      "specificConcentrationLimitId": "5265113",
+      "concentrationRange": "0.5 % ≤ C < 5 %",
+      "displayOrder": 3801,
+      "hazards": [
+        {
+          "specificConcentrationLimitHazardId": "5286249",
+          "hazardClassAndCategoryCode": "Eye Irrit. 2",
+          "hazardStatementCode": "H319",
+          "hazardStatementText": "Causes serious eye irritation.",
+          "hazardCategoryDisplayOrder": 3801
+        }
+      ]
+    }
+  ],
+  "labelling": [
+    {
+      "classificationId": "113534",
+      "rmlId": "100.000.746",
+      "labellingHazardStatementId": "3885367",
+      "displayOrder": 1,
+      "signalWord": {
+        "signalWordCode": "Dgr",
+        "signalWordText": "Danger"
+      },
+      "hazardStatement": {
+        "hazardStatementCode": "H220",
+        "hazardStatementText": "Extremely flammable gas."
+      },
+      "targetOrgans": [],
+      "routeExposures": []
+    },
+    {
+      "classificationId": "113534",
+      "rmlId": "100.000.746",
+      "labellingHazardStatementId": "3885366",
+      "displayOrder": 2,
+      "signalWord": {
+        "signalWordCode": "Dgr",
+        "signalWordText": "Danger"
+      },
+      "hazardStatement": {
+        "hazardStatementCode": "H332",
+        "hazardStatementText": "Harmful if inhaled."
+      },
+      "targetOrgans": [],
+      "routeExposures": []
+    },
+    {
+      "classificationId": "113534",
+      "rmlId": "100.000.746",
+      "labellingHazardStatementId": "3885365",
+      "displayOrder": 3,
+      "signalWord": {
+        "signalWordCode": "Dgr",
+        "signalWordText": "Danger"
+      },
+      "hazardStatement": {
+        "hazardStatementCode": "H335",
+        "hazardStatementText": "May cause respiratory irritation."
+      },
+      "targetOrgans": [],
+      "routeExposures": []
+    },
+    {
+      "classificationId": "113534",
+      "rmlId": "100.000.746",
+      "labellingHazardStatementId": "3885364",
+      "displayOrder": 4,
+      "signalWord": {
+        "signalWordCode": "Dgr",
+        "signalWordText": "Danger"
+      },
+      "hazardStatement": {
+        "hazardStatementCode": "H315",
+        "hazardStatementText": "Causes skin irritation."
+      },
+      "targetOrgans": [],
+      "routeExposures": []
+    },
+    {
+      "classificationId": "113534",
+      "rmlId": "100.000.746",
+      "labellingHazardStatementId": "3885363",
+      "displayOrder": 5,
+      "signalWord": {
+        "signalWordCode": "Dgr",
+        "signalWordText": "Danger"
+      },
+      "hazardStatement": {
+        "hazardStatementCode": "H318",
+        "hazardStatementText": "Causes serious eye damage."
+      },
+      "targetOrgans": [],
+      "routeExposures": []
+    }
+  ],
+  "notes": [
+    {
+      "classificationId": "113534",
+      "note": {
+        "noteId": "2724560",
+        "noteCode": "U",
+        "noteText": "When put on the market gases have to be classified as ‘Gases under pressure’, in one of the groups compressed gas, liquefied gas, refrig­erated liquefied gas or dissolved gas. The group depends on the physical state in which the gas is packaged and therefore has to be assigned case by case."
+      },
+      "displayOrder": 19
+    },
+    {
+      "classificationId": "113534",
+      "note": {
+        "noteId": "2724561",
+        "noteCode": "5",
+        "noteText": "The concentration limits for gaseous mixtures are expressed as volume per volume percentage."
+      },
+      "displayOrder": 26
+    }
+  ],
+  "pictograms": [
+    {
+      "classificationId": "113534",
+      "code": "GHS02",
+      "text": "Flame",
+      "displayOrder": 500
+    },
+    {
+      "classificationId": "113534",
+      "code": "GHS04",
+      "text": "Gas cylinder",
+      "displayOrder": 1000
+    },
+    {
+      "classificationId": "113534",
+      "code": "GHS07",
+      "text": "Exclamation mark",
+      "displayOrder": 3103
+    },
+    {
+      "classificationId": "113534",
+      "code": "GHS05",
+      "text": "Corrosion",
+      "displayOrder": 3700
+    }
+  ],
+  "m_factors": [],
+  "signalWord": {
+    "signalWordCode": "Dgr",
+    "signalWordText": "Danger"
+  },
+  "atp": "CLP00",
+  "jev_decisions": [
+    {
+      "step": 1,
+      "question": "term",
+      "type": "choice",
+      "choice": "cas",
+      "probabilities": {
+        "fr": 0,
+        "ec": 0,
+        "cas": 1,
+        "en": 0
+      },
+      "confidence": 1,
+      "confidence_cas": {
+        "type": "noul",
+        "noul": 0.73
+      },
+      "state": {
+        "cas": "74-89-5",
+        "ec": "200-820-0",
+        "nom": "Méthylamine"
+      }
+    },
+    {
+      "step": 2,
+      "question": "ok",
+      "type": "noul",
+      "noul": 0.96
+    },
+    {
+      "step": 3,
+      "question": "hasSCL",
+      "type": "noul",
+      "noul": 0.59
+    }
+  ],
+  "verified_at": "2026-09-21T21:16:40.603Z",
+  "verified_by": "Noa (Asus G834JY) via Jev 1.13 + Playwright 1.63.0",
+  "gmktec_fiche": "methylamine.json",
+  "urls": {
+    "substance": "https://chem.echa.europa.eu/100.000.746",
+    "harmonised": "https://chem.echa.europa.eu/100.000.746/harmonised/113534",
+    "scl_api": "https://chem.echa.europa.eu/api-cnl-inventory/harmonized/specific-concentration-limits/113534"
+  }
+}

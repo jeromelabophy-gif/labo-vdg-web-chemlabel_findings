@@ -1,0 +1,338 @@
+{
+  "substance": "Thiocyanate de potassium",
+  "rmlId": "100.005.792",
+  "ec": "206-370-1",
+  "cas": "333-20-0",
+  "indexNumber": "615-004-00-3",
+  "source": "https://chem.echa.europa.eu/api-substance/v1/substance/100.005.792",
+  "found_via": "GET /api-substance/v1/substance?searchText=333-20-0&pageIndex=1&pageSize=10 (Jev term cas 1)",
+  "found_by": "Jev 1.13 via OpenRouter (typesafe/jev-1.13) + Playwright 1.63.0",
+  "route_jev": [
+    "Jev term cas ({\"cas\":1,\"fr\":0,\"ec\":0,\"en\":0}) -> 333-20-0",
+    "GET /api-substance/v1/substance?searchText=333-20-0&pageIndex=1&pageSize=10 -> rmlId 100.005.792 (Potassium thiocyanate)",
+    "GET /api-substance/v1/substance/100.005.792 -> Potassium thiocyanate EC 206-370-1 CAS 333-20-0 Index ",
+    "GET /api-cnl-inventory/prominent/overview/info/100.005.792 -> 2 harmonised, primary cid 523489 (615-004-00-3)",
+    "GET /api-cnl-inventory/prominent/overview/classifications/harmonised/523489 -> 4 class",
+    "GET /api-cnl-inventory/harmonized/specific-concentration-limits/523489 -> 0 SCL (Jev hasSCL 0.16)"
+  ],
+  "harmonised_url_pattern": "https://chem.echa.europa.eu/100.005.792/harmonised/523489",
+  "harmonised_overview": [
+    {
+      "classificationId": "523489",
+      "rmlId": "100.005.792",
+      "indexNumber": "615-004-00-3",
+      "type": "harmonised",
+      "totalHarmonisedClassifications": 2,
+      "totalIndustryClassifications": 11,
+      "displayOrder": 1,
+      "chemicalName": "",
+      "atpCodeName": "ATP01",
+      "signalWord": {
+        "signalWordCode": "Wng",
+        "signalWordText": "Warning"
+      },
+      "isInheritedFlag": true
+    },
+    {
+      "classificationId": "523490",
+      "rmlId": "100.005.792",
+      "indexNumber": "615-030-00-5",
+      "type": "harmonised",
+      "totalHarmonisedClassifications": 2,
+      "totalIndustryClassifications": 11,
+      "displayOrder": 2,
+      "chemicalName": "",
+      "atpCodeName": "ATP01",
+      "signalWord": {
+        "signalWordCode": "Wng",
+        "signalWordText": "Warning"
+      },
+      "isInheritedFlag": true
+    }
+  ],
+  "classificationId": "523489",
+  "harmonised_classifications": [
+    {
+      "classificationId": "523489",
+      "rmlId": "100.005.792",
+      "displayOrder": 3103,
+      "classifiedHazardId": "1659958",
+      "hazardClassAndCategoryCode": "Acute Tox. 4 (Inhalation)*",
+      "hazardStatements": [
+        {
+          "hazardStatementCode": "H332",
+          "hazardStatementText": "Harmful if inhaled."
+        }
+      ],
+      "targetOrganGroups": [],
+      "routeExposureGroups": [],
+      "reasonForClassificationGroups": []
+    },
+    {
+      "classificationId": "523489",
+      "rmlId": "100.005.792",
+      "displayOrder": 3133,
+      "classifiedHazardId": "1714572",
+      "hazardClassAndCategoryCode": "Acute Tox. 4 (Dermal)*",
+      "hazardStatements": [
+        {
+          "hazardStatementCode": "H312",
+          "hazardStatementText": "Harmful in contact with skin."
+        }
+      ],
+      "targetOrganGroups": [],
+      "routeExposureGroups": [],
+      "reasonForClassificationGroups": []
+    },
+    {
+      "classificationId": "523489",
+      "rmlId": "100.005.792",
+      "displayOrder": 3163,
+      "classifiedHazardId": "1891704",
+      "hazardClassAndCategoryCode": "Acute Tox. 4 (Oral)*",
+      "hazardStatements": [
+        {
+          "hazardStatementCode": "H302",
+          "hazardStatementText": "Harmful if swallowed."
+        }
+      ],
+      "targetOrganGroups": [],
+      "routeExposureGroups": [],
+      "reasonForClassificationGroups": []
+    },
+    {
+      "classificationId": "523489",
+      "rmlId": "100.005.792",
+      "displayOrder": 4302,
+      "classifiedHazardId": "550946",
+      "hazardClassAndCategoryCode": "Aquatic Chronic 3",
+      "hazardStatements": [
+        {
+          "hazardStatementCode": "H412",
+          "hazardStatementText": "Harmful to aquatic life with long lasting effects."
+        }
+      ],
+      "targetOrganGroups": [],
+      "routeExposureGroups": [],
+      "reasonForClassificationGroups": []
+    }
+  ],
+  "harmonized_classification": [
+    {
+      "classificationId": "523489",
+      "rmlId": "100.005.792",
+      "displayOrder": 3103,
+      "classifiedHazardId": "1659958",
+      "hazardClassAndCategoryCode": "Acute Tox. 4 (Inhalation)*",
+      "hazardStatements": [
+        {
+          "hazardStatementCode": "H332",
+          "hazardStatementText": "Harmful if inhaled."
+        }
+      ],
+      "targetOrganGroups": [],
+      "routeExposureGroups": [],
+      "reasonForClassificationGroups": []
+    },
+    {
+      "classificationId": "523489",
+      "rmlId": "100.005.792",
+      "displayOrder": 3133,
+      "classifiedHazardId": "1714572",
+      "hazardClassAndCategoryCode": "Acute Tox. 4 (Dermal)*",
+      "hazardStatements": [
+        {
+          "hazardStatementCode": "H312",
+          "hazardStatementText": "Harmful in contact with skin."
+        }
+      ],
+      "targetOrganGroups": [],
+      "routeExposureGroups": [],
+      "reasonForClassificationGroups": []
+    },
+    {
+      "classificationId": "523489",
+      "rmlId": "100.005.792",
+      "displayOrder": 3163,
+      "classifiedHazardId": "1891704",
+      "hazardClassAndCategoryCode": "Acute Tox. 4 (Oral)*",
+      "hazardStatements": [
+        {
+          "hazardStatementCode": "H302",
+          "hazardStatementText": "Harmful if swallowed."
+        }
+      ],
+      "targetOrganGroups": [],
+      "routeExposureGroups": [],
+      "reasonForClassificationGroups": []
+    },
+    {
+      "classificationId": "523489",
+      "rmlId": "100.005.792",
+      "displayOrder": 4302,
+      "classifiedHazardId": "550946",
+      "hazardClassAndCategoryCode": "Aquatic Chronic 3",
+      "hazardStatements": [
+        {
+          "hazardStatementCode": "H412",
+          "hazardStatementText": "Harmful to aquatic life with long lasting effects."
+        }
+      ],
+      "targetOrganGroups": [],
+      "routeExposureGroups": [],
+      "reasonForClassificationGroups": []
+    }
+  ],
+  "specific_concentration_limits": [],
+  "labelling": [
+    {
+      "classificationId": "523489",
+      "rmlId": "100.005.792",
+      "labellingHazardStatementId": "3862063",
+      "displayOrder": 6,
+      "signalWord": {
+        "signalWordCode": "Wng",
+        "signalWordText": "Warning"
+      },
+      "hazardStatement": {
+        "hazardStatementCode": "H332",
+        "hazardStatementText": "Harmful if inhaled."
+      },
+      "targetOrgans": [],
+      "routeExposures": []
+    },
+    {
+      "classificationId": "523489",
+      "rmlId": "100.005.792",
+      "labellingHazardStatementId": "3861956",
+      "displayOrder": 32,
+      "signalWord": {
+        "signalWordCode": "Wng",
+        "signalWordText": "Warning"
+      },
+      "hazardStatement": {
+        "hazardStatementCode": "H312",
+        "hazardStatementText": "Harmful in contact with skin."
+      },
+      "targetOrgans": [],
+      "routeExposures": []
+    },
+    {
+      "classificationId": "523489",
+      "rmlId": "100.005.792",
+      "labellingHazardStatementId": "3861930",
+      "displayOrder": 58,
+      "signalWord": {
+        "signalWordCode": "Wng",
+        "signalWordText": "Warning"
+      },
+      "hazardStatement": {
+        "hazardStatementCode": "H302",
+        "hazardStatementText": "Harmful if swallowed."
+      },
+      "targetOrgans": [],
+      "routeExposures": []
+    },
+    {
+      "classificationId": "523489",
+      "rmlId": "100.005.792",
+      "labellingHazardStatementId": "3861904",
+      "displayOrder": 84,
+      "signalWord": {
+        "signalWordCode": "Wng",
+        "signalWordText": "Warning"
+      },
+      "hazardStatement": {
+        "hazardStatementCode": "H412",
+        "hazardStatementText": "Harmful to aquatic life with long lasting effects."
+      },
+      "targetOrgans": [],
+      "routeExposures": []
+    },
+    {
+      "classificationId": "523489",
+      "rmlId": "100.005.792",
+      "labellingHazardStatementId": "3861875",
+      "displayOrder": 110,
+      "signalWord": {
+        "signalWordCode": "Wng",
+        "signalWordText": "Warning"
+      },
+      "hazardStatement": {
+        "hazardStatementCode": "EUH032",
+        "hazardStatementText": "Contact with acids liberates very toxic gas."
+      },
+      "targetOrgans": [],
+      "routeExposures": []
+    }
+  ],
+  "notes": [
+    {
+      "classificationId": "523489",
+      "note": {
+        "noteId": "2729727",
+        "noteCode": "A",
+        "noteText": "Without prejudice to Article 17(2), the name of the substance must appear on the label in the form of one of the designations given in Part 3.\nIn Part 3, use is sometimes made of a general description such as ‘... compounds’ or ‘... salts’. In this case, the supplier is required to state on the label the correct name, due account being taken of section 1.1.1.4."
+      },
+      "displayOrder": 1
+    }
+  ],
+  "pictograms": [
+    {
+      "classificationId": "523489",
+      "code": "GHS07",
+      "text": "Exclamation mark",
+      "displayOrder": 3103
+    }
+  ],
+  "m_factors": [],
+  "signalWord": {
+    "signalWordCode": "Wng",
+    "signalWordText": "Warning"
+  },
+  "atp": "ATP01",
+  "jev_decisions": [
+    {
+      "step": 1,
+      "question": "term",
+      "type": "choice",
+      "choice": "cas",
+      "probabilities": {
+        "cas": 1,
+        "fr": 0,
+        "ec": 0,
+        "en": 0
+      },
+      "confidence": 1,
+      "confidence_cas": {
+        "type": "noul",
+        "noul": 0.68
+      },
+      "state": {
+        "cas": "333-20-0",
+        "ec": null,
+        "nom": "Thiocyanate de potassium"
+      }
+    },
+    {
+      "step": 2,
+      "question": "ok",
+      "type": "noul",
+      "noul": 0.89
+    },
+    {
+      "step": 3,
+      "question": "hasSCL",
+      "type": "noul",
+      "noul": 0.16
+    }
+  ],
+  "verified_at": "2026-09-21T21:18:04.495Z",
+  "verified_by": "Noa (Asus G834JY) via Jev 1.13 + Playwright 1.63.0",
+  "gmktec_fiche": "thiocyanate_de_potassium.json",
+  "urls": {
+    "substance": "https://chem.echa.europa.eu/100.005.792",
+    "harmonised": "https://chem.echa.europa.eu/100.005.792/harmonised/523489",
+    "scl_api": "https://chem.echa.europa.eu/api-cnl-inventory/harmonized/specific-concentration-limits/523489"
+  }
+}

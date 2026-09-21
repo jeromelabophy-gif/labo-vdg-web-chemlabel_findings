@@ -1,0 +1,347 @@
+{
+  "substance": "Ammoniaque 32 %",
+  "rmlId": "100.028.760",
+  "ec": "231-635-3",
+  "cas": "7664-41-7",
+  "indexNumber": "007-001-00-5",
+  "source": "https://chem.echa.europa.eu/api-substance/v1/substance/100.028.760",
+  "found_via": "GET /api-substance/v1/substance?searchText=7664-41-7&pageIndex=1&pageSize=10 (Jev term cas 1)",
+  "found_by": "Jev 1.13 via OpenRouter (typesafe/jev-1.13) + Playwright 1.63.0",
+  "route_jev": [
+    "Jev term cas ({\"fr\":0,\"cas\":1,\"en\":0,\"ec\":0}) -> 7664-41-7",
+    "GET /api-substance/v1/substance?searchText=7664-41-7&pageIndex=1&pageSize=10 -> rmlId 100.028.760 (Ammonia, anhydrous)",
+    "GET /api-substance/v1/substance/100.028.760 -> Ammonia, anhydrous EC 231-635-3 CAS 7664-41-7 Index 007-001-00-5",
+    "GET /api-cnl-inventory/prominent/overview/info/100.028.760 -> 1 harmonised, primary cid 107125 (007-001-00-5)",
+    "GET /api-cnl-inventory/prominent/overview/classifications/harmonised/107125 -> 5 class",
+    "GET /api-cnl-inventory/harmonized/specific-concentration-limits/107125 -> 0 SCL (Jev hasSCL 0.18)"
+  ],
+  "harmonised_url_pattern": "https://chem.echa.europa.eu/100.028.760/harmonised/107125",
+  "harmonised_overview": [
+    {
+      "classificationId": "107125",
+      "rmlId": "100.028.760",
+      "indexNumber": "007-001-00-5",
+      "type": "harmonised",
+      "totalHarmonisedClassifications": 1,
+      "totalIndustryClassifications": 31,
+      "displayOrder": 1,
+      "chemicalName": "ammonia, anhydrous",
+      "atpCodeName": "CLP00",
+      "signalWord": {
+        "signalWordCode": "Dgr",
+        "signalWordText": "Danger"
+      },
+      "isInheritedFlag": false,
+      "harmonisedSubstanceVariant": "gas (implied by Flam. Gas 2, Press. Gas)"
+    }
+  ],
+  "classificationId": "107125",
+  "harmonised_classifications": [
+    {
+      "classificationId": "107125",
+      "rmlId": "100.028.760",
+      "displayOrder": 503,
+      "classifiedHazardId": "566293",
+      "hazardClassAndCategoryCode": "Flam. Gas 2",
+      "hazardStatements": [
+        {
+          "hazardStatementCode": "H221",
+          "hazardStatementText": "Flammable gas."
+        }
+      ],
+      "targetOrganGroups": [],
+      "routeExposureGroups": [],
+      "reasonForClassificationGroups": []
+    },
+    {
+      "classificationId": "107125",
+      "rmlId": "100.028.760",
+      "displayOrder": 1000,
+      "classifiedHazardId": "876925",
+      "hazardClassAndCategoryCode": "Press. Gas",
+      "hazardStatements": [],
+      "targetOrganGroups": [],
+      "routeExposureGroups": [],
+      "reasonForClassificationGroups": []
+    },
+    {
+      "classificationId": "107125",
+      "rmlId": "100.028.760",
+      "displayOrder": 3102,
+      "classifiedHazardId": "877325",
+      "hazardClassAndCategoryCode": "Acute Tox. 3 (Inhalation)*",
+      "hazardStatements": [
+        {
+          "hazardStatementCode": "H331",
+          "hazardStatementText": "Toxic if inhaled."
+        }
+      ],
+      "targetOrganGroups": [],
+      "routeExposureGroups": [],
+      "reasonForClassificationGroups": []
+    },
+    {
+      "classificationId": "107125",
+      "rmlId": "100.028.760",
+      "displayOrder": 3502,
+      "classifiedHazardId": "542726",
+      "hazardClassAndCategoryCode": "Skin Corr. 1B",
+      "hazardStatements": [
+        {
+          "hazardStatementCode": "H314",
+          "hazardStatementText": "Causes severe skin burns and eye damage."
+        }
+      ],
+      "targetOrganGroups": [],
+      "routeExposureGroups": [],
+      "reasonForClassificationGroups": []
+    },
+    {
+      "classificationId": "107125",
+      "rmlId": "100.028.760",
+      "displayOrder": 4200,
+      "classifiedHazardId": "2095075",
+      "hazardClassAndCategoryCode": "Aquatic Acute 1",
+      "hazardStatements": [
+        {
+          "hazardStatementCode": "H400",
+          "hazardStatementText": "Very toxic to aquatic life."
+        }
+      ],
+      "targetOrganGroups": [],
+      "routeExposureGroups": [],
+      "reasonForClassificationGroups": []
+    }
+  ],
+  "harmonized_classification": [
+    {
+      "classificationId": "107125",
+      "rmlId": "100.028.760",
+      "displayOrder": 503,
+      "classifiedHazardId": "566293",
+      "hazardClassAndCategoryCode": "Flam. Gas 2",
+      "hazardStatements": [
+        {
+          "hazardStatementCode": "H221",
+          "hazardStatementText": "Flammable gas."
+        }
+      ],
+      "targetOrganGroups": [],
+      "routeExposureGroups": [],
+      "reasonForClassificationGroups": []
+    },
+    {
+      "classificationId": "107125",
+      "rmlId": "100.028.760",
+      "displayOrder": 1000,
+      "classifiedHazardId": "876925",
+      "hazardClassAndCategoryCode": "Press. Gas",
+      "hazardStatements": [],
+      "targetOrganGroups": [],
+      "routeExposureGroups": [],
+      "reasonForClassificationGroups": []
+    },
+    {
+      "classificationId": "107125",
+      "rmlId": "100.028.760",
+      "displayOrder": 3102,
+      "classifiedHazardId": "877325",
+      "hazardClassAndCategoryCode": "Acute Tox. 3 (Inhalation)*",
+      "hazardStatements": [
+        {
+          "hazardStatementCode": "H331",
+          "hazardStatementText": "Toxic if inhaled."
+        }
+      ],
+      "targetOrganGroups": [],
+      "routeExposureGroups": [],
+      "reasonForClassificationGroups": []
+    },
+    {
+      "classificationId": "107125",
+      "rmlId": "100.028.760",
+      "displayOrder": 3502,
+      "classifiedHazardId": "542726",
+      "hazardClassAndCategoryCode": "Skin Corr. 1B",
+      "hazardStatements": [
+        {
+          "hazardStatementCode": "H314",
+          "hazardStatementText": "Causes severe skin burns and eye damage."
+        }
+      ],
+      "targetOrganGroups": [],
+      "routeExposureGroups": [],
+      "reasonForClassificationGroups": []
+    },
+    {
+      "classificationId": "107125",
+      "rmlId": "100.028.760",
+      "displayOrder": 4200,
+      "classifiedHazardId": "2095075",
+      "hazardClassAndCategoryCode": "Aquatic Acute 1",
+      "hazardStatements": [
+        {
+          "hazardStatementCode": "H400",
+          "hazardStatementText": "Very toxic to aquatic life."
+        }
+      ],
+      "targetOrganGroups": [],
+      "routeExposureGroups": [],
+      "reasonForClassificationGroups": []
+    }
+  ],
+  "specific_concentration_limits": [],
+  "labelling": [
+    {
+      "classificationId": "107125",
+      "rmlId": "100.028.760",
+      "labellingHazardStatementId": "4571163",
+      "displayOrder": 1,
+      "signalWord": {
+        "signalWordCode": "Dgr",
+        "signalWordText": "Danger"
+      },
+      "hazardStatement": {
+        "hazardStatementCode": "H221",
+        "hazardStatementText": "Flammable gas."
+      },
+      "targetOrgans": [],
+      "routeExposures": []
+    },
+    {
+      "classificationId": "107125",
+      "rmlId": "100.028.760",
+      "labellingHazardStatementId": "4571161",
+      "displayOrder": 2,
+      "signalWord": {
+        "signalWordCode": "Dgr",
+        "signalWordText": "Danger"
+      },
+      "hazardStatement": {
+        "hazardStatementCode": "H331",
+        "hazardStatementText": "Toxic if inhaled."
+      },
+      "targetOrgans": [],
+      "routeExposures": []
+    },
+    {
+      "classificationId": "107125",
+      "rmlId": "100.028.760",
+      "labellingHazardStatementId": "4571159",
+      "displayOrder": 3,
+      "signalWord": {
+        "signalWordCode": "Dgr",
+        "signalWordText": "Danger"
+      },
+      "hazardStatement": {
+        "hazardStatementCode": "H314",
+        "hazardStatementText": "Causes severe skin burns and eye damage."
+      },
+      "targetOrgans": [],
+      "routeExposures": []
+    },
+    {
+      "classificationId": "107125",
+      "rmlId": "100.028.760",
+      "labellingHazardStatementId": "4571157",
+      "displayOrder": 4,
+      "signalWord": {
+        "signalWordCode": "Dgr",
+        "signalWordText": "Danger"
+      },
+      "hazardStatement": {
+        "hazardStatementCode": "H400",
+        "hazardStatementText": "Very toxic to aquatic life."
+      },
+      "targetOrgans": [],
+      "routeExposures": []
+    }
+  ],
+  "notes": [
+    {
+      "classificationId": "107125",
+      "note": {
+        "noteId": "2731117",
+        "noteCode": "U",
+        "noteText": "When put on the market gases have to be classified as ‘Gases under pressure’, in one of the groups compressed gas, liquefied gas, refrig­erated liquefied gas or dissolved gas. The group depends on the physical state in which the gas is packaged and therefore has to be assigned case by case."
+      },
+      "displayOrder": 19
+    }
+  ],
+  "pictograms": [
+    {
+      "classificationId": "107125",
+      "code": "GHS04",
+      "text": "Gas cylinder",
+      "displayOrder": 1000
+    },
+    {
+      "classificationId": "107125",
+      "code": "GHS06",
+      "text": "Skull and crossbones",
+      "displayOrder": 3102
+    },
+    {
+      "classificationId": "107125",
+      "code": "GHS05",
+      "text": "Corrosion",
+      "displayOrder": 3502
+    },
+    {
+      "classificationId": "107125",
+      "code": "GHS09",
+      "text": "Environment",
+      "displayOrder": 4200
+    }
+  ],
+  "m_factors": [],
+  "signalWord": {
+    "signalWordCode": "Dgr",
+    "signalWordText": "Danger"
+  },
+  "atp": "CLP00",
+  "jev_decisions": [
+    {
+      "step": 1,
+      "question": "term",
+      "type": "choice",
+      "choice": "cas",
+      "probabilities": {
+        "fr": 0,
+        "cas": 1,
+        "en": 0,
+        "ec": 0
+      },
+      "confidence": 1,
+      "confidence_cas": {
+        "type": "noul",
+        "noul": 0.67
+      },
+      "state": {
+        "cas": "7664-41-7",
+        "ec": null,
+        "nom": "Ammoniaque 32 %"
+      }
+    },
+    {
+      "step": 2,
+      "question": "ok",
+      "type": "noul",
+      "noul": 0.29
+    },
+    {
+      "step": 3,
+      "question": "hasSCL",
+      "type": "noul",
+      "noul": 0.18
+    }
+  ],
+  "verified_at": "2026-09-21T21:14:11.600Z",
+  "verified_by": "Noa (Asus G834JY) via Jev 1.13 + Playwright 1.63.0",
+  "gmktec_fiche": "ammoniaque_32_.json",
+  "urls": {
+    "substance": "https://chem.echa.europa.eu/100.028.760",
+    "harmonised": "https://chem.echa.europa.eu/100.028.760/harmonised/107125",
+    "scl_api": "https://chem.echa.europa.eu/api-cnl-inventory/harmonized/specific-concentration-limits/107125"
+  }
+}

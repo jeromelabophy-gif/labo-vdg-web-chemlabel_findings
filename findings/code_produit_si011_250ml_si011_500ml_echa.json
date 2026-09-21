@@ -1,0 +1,357 @@
+{
+  "substance": "Code Produit : SI011.250ML – SI011.500ML",
+  "rmlId": "100.000.761",
+  "ec": "200-836-8",
+  "cas": "75-07-0",
+  "indexNumber": "605-003-00-6",
+  "source": "https://chem.echa.europa.eu/api-substance/v1/substance/100.000.761",
+  "found_via": "GET /api-substance/v1/substance?searchText=75-07-0&pageIndex=1&pageSize=10 (Jev term cas 1)",
+  "found_by": "Jev 1.13 via OpenRouter (typesafe/jev-1.13) + Playwright 1.63.0",
+  "route_jev": [
+    "Jev term cas ({\"fr\":0,\"cas\":1,\"ec\":0,\"en\":0}) -> 75-07-0",
+    "GET /api-substance/v1/substance?searchText=75-07-0&pageIndex=1&pageSize=10 -> rmlId 100.000.761 (Acetaldehyde)",
+    "GET /api-substance/v1/substance/100.000.761 -> Acetaldehyde EC 200-836-8 CAS 75-07-0 Index 605-003-00-6",
+    "GET /api-cnl-inventory/prominent/overview/info/100.000.761 -> 1 harmonised, primary cid 113575 (605-003-00-6)",
+    "GET /api-cnl-inventory/prominent/overview/classifications/harmonised/113575 -> 5 class",
+    "GET /api-cnl-inventory/harmonized/specific-concentration-limits/113575 -> 0 SCL (Jev hasSCL 0.22)"
+  ],
+  "harmonised_url_pattern": "https://chem.echa.europa.eu/100.000.761/harmonised/113575",
+  "harmonised_overview": [
+    {
+      "classificationId": "113575",
+      "rmlId": "100.000.761",
+      "indexNumber": "605-003-00-6",
+      "type": "harmonised",
+      "totalHarmonisedClassifications": 1,
+      "totalIndustryClassifications": 19,
+      "displayOrder": 1,
+      "chemicalName": "acetaldehyde; ethanal",
+      "atpCodeName": "ATP13",
+      "signalWord": {
+        "signalWordCode": "Dgr",
+        "signalWordText": "Danger"
+      },
+      "isInheritedFlag": false,
+      "harmonisedSubstanceVariant": "liquid (implied by Flam. Liq. 1)"
+    }
+  ],
+  "classificationId": "113575",
+  "harmonised_classifications": [
+    {
+      "classificationId": "113575",
+      "rmlId": "100.000.761",
+      "displayOrder": 1500,
+      "classifiedHazardId": "1690646",
+      "hazardClassAndCategoryCode": "Flam. Liq. 1",
+      "hazardStatements": [
+        {
+          "hazardStatementCode": "H224",
+          "hazardStatementText": "Extremely flammable liquid and vapour."
+        }
+      ],
+      "targetOrganGroups": [],
+      "routeExposureGroups": [],
+      "reasonForClassificationGroups": []
+    },
+    {
+      "classificationId": "113575",
+      "rmlId": "100.000.761",
+      "displayOrder": 2702,
+      "classifiedHazardId": "535042",
+      "hazardClassAndCategoryCode": "Carc. 1B",
+      "hazardStatements": [
+        {
+          "hazardStatementCode": "H350",
+          "hazardStatementText": "May cause cancer <state route of exposure if it is conclusively proven that no other routes of exposure cause the hazard>."
+        }
+      ],
+      "targetOrganGroups": [],
+      "routeExposureGroups": [],
+      "reasonForClassificationGroups": []
+    },
+    {
+      "classificationId": "113575",
+      "rmlId": "100.000.761",
+      "displayOrder": 2802,
+      "classifiedHazardId": "1700286",
+      "hazardClassAndCategoryCode": "Muta. 2",
+      "hazardStatements": [
+        {
+          "hazardStatementCode": "H341",
+          "hazardStatementText": "Suspected of causing genetic defects <state route of exposure if it is conclusively proven that no other routes of exposure cause the hazard>."
+        }
+      ],
+      "targetOrganGroups": [],
+      "routeExposureGroups": [],
+      "reasonForClassificationGroups": []
+    },
+    {
+      "classificationId": "113575",
+      "rmlId": "100.000.761",
+      "displayOrder": 3300,
+      "classifiedHazardId": "875883",
+      "hazardClassAndCategoryCode": "STOT SE 3",
+      "hazardStatements": [
+        {
+          "hazardStatementCode": "H335",
+          "hazardStatementText": "May cause respiratory irritation."
+        }
+      ],
+      "targetOrganGroups": [],
+      "routeExposureGroups": [],
+      "reasonForClassificationGroups": []
+    },
+    {
+      "classificationId": "113575",
+      "rmlId": "100.000.761",
+      "displayOrder": 3801,
+      "classifiedHazardId": "1994224",
+      "hazardClassAndCategoryCode": "Eye Irrit. 2",
+      "hazardStatements": [
+        {
+          "hazardStatementCode": "H319",
+          "hazardStatementText": "Causes serious eye irritation."
+        }
+      ],
+      "targetOrganGroups": [],
+      "routeExposureGroups": [],
+      "reasonForClassificationGroups": []
+    }
+  ],
+  "harmonized_classification": [
+    {
+      "classificationId": "113575",
+      "rmlId": "100.000.761",
+      "displayOrder": 1500,
+      "classifiedHazardId": "1690646",
+      "hazardClassAndCategoryCode": "Flam. Liq. 1",
+      "hazardStatements": [
+        {
+          "hazardStatementCode": "H224",
+          "hazardStatementText": "Extremely flammable liquid and vapour."
+        }
+      ],
+      "targetOrganGroups": [],
+      "routeExposureGroups": [],
+      "reasonForClassificationGroups": []
+    },
+    {
+      "classificationId": "113575",
+      "rmlId": "100.000.761",
+      "displayOrder": 2702,
+      "classifiedHazardId": "535042",
+      "hazardClassAndCategoryCode": "Carc. 1B",
+      "hazardStatements": [
+        {
+          "hazardStatementCode": "H350",
+          "hazardStatementText": "May cause cancer <state route of exposure if it is conclusively proven that no other routes of exposure cause the hazard>."
+        }
+      ],
+      "targetOrganGroups": [],
+      "routeExposureGroups": [],
+      "reasonForClassificationGroups": []
+    },
+    {
+      "classificationId": "113575",
+      "rmlId": "100.000.761",
+      "displayOrder": 2802,
+      "classifiedHazardId": "1700286",
+      "hazardClassAndCategoryCode": "Muta. 2",
+      "hazardStatements": [
+        {
+          "hazardStatementCode": "H341",
+          "hazardStatementText": "Suspected of causing genetic defects <state route of exposure if it is conclusively proven that no other routes of exposure cause the hazard>."
+        }
+      ],
+      "targetOrganGroups": [],
+      "routeExposureGroups": [],
+      "reasonForClassificationGroups": []
+    },
+    {
+      "classificationId": "113575",
+      "rmlId": "100.000.761",
+      "displayOrder": 3300,
+      "classifiedHazardId": "875883",
+      "hazardClassAndCategoryCode": "STOT SE 3",
+      "hazardStatements": [
+        {
+          "hazardStatementCode": "H335",
+          "hazardStatementText": "May cause respiratory irritation."
+        }
+      ],
+      "targetOrganGroups": [],
+      "routeExposureGroups": [],
+      "reasonForClassificationGroups": []
+    },
+    {
+      "classificationId": "113575",
+      "rmlId": "100.000.761",
+      "displayOrder": 3801,
+      "classifiedHazardId": "1994224",
+      "hazardClassAndCategoryCode": "Eye Irrit. 2",
+      "hazardStatements": [
+        {
+          "hazardStatementCode": "H319",
+          "hazardStatementText": "Causes serious eye irritation."
+        }
+      ],
+      "targetOrganGroups": [],
+      "routeExposureGroups": [],
+      "reasonForClassificationGroups": []
+    }
+  ],
+  "specific_concentration_limits": [],
+  "labelling": [
+    {
+      "classificationId": "113575",
+      "rmlId": "100.000.761",
+      "labellingHazardStatementId": "3933926",
+      "displayOrder": 1,
+      "signalWord": {
+        "signalWordCode": "Dgr",
+        "signalWordText": "Danger"
+      },
+      "hazardStatement": {
+        "hazardStatementCode": "H224",
+        "hazardStatementText": "Extremely flammable liquid and vapour."
+      },
+      "targetOrgans": [],
+      "routeExposures": []
+    },
+    {
+      "classificationId": "113575",
+      "rmlId": "100.000.761",
+      "labellingHazardStatementId": "3933925",
+      "displayOrder": 2,
+      "signalWord": {
+        "signalWordCode": "Dgr",
+        "signalWordText": "Danger"
+      },
+      "hazardStatement": {
+        "hazardStatementCode": "H350",
+        "hazardStatementText": "May cause cancer <state route of exposure if it is conclusively proven that no other routes of exposure cause the hazard>."
+      },
+      "targetOrgans": [],
+      "routeExposures": []
+    },
+    {
+      "classificationId": "113575",
+      "rmlId": "100.000.761",
+      "labellingHazardStatementId": "3933924",
+      "displayOrder": 3,
+      "signalWord": {
+        "signalWordCode": "Dgr",
+        "signalWordText": "Danger"
+      },
+      "hazardStatement": {
+        "hazardStatementCode": "H341",
+        "hazardStatementText": "Suspected of causing genetic defects <state route of exposure if it is conclusively proven that no other routes of exposure cause the hazard>."
+      },
+      "targetOrgans": [],
+      "routeExposures": []
+    },
+    {
+      "classificationId": "113575",
+      "rmlId": "100.000.761",
+      "labellingHazardStatementId": "3933923",
+      "displayOrder": 4,
+      "signalWord": {
+        "signalWordCode": "Dgr",
+        "signalWordText": "Danger"
+      },
+      "hazardStatement": {
+        "hazardStatementCode": "H335",
+        "hazardStatementText": "May cause respiratory irritation."
+      },
+      "targetOrgans": [],
+      "routeExposures": []
+    },
+    {
+      "classificationId": "113575",
+      "rmlId": "100.000.761",
+      "labellingHazardStatementId": "3933922",
+      "displayOrder": 5,
+      "signalWord": {
+        "signalWordCode": "Dgr",
+        "signalWordText": "Danger"
+      },
+      "hazardStatement": {
+        "hazardStatementCode": "H319",
+        "hazardStatementText": "Causes serious eye irritation."
+      },
+      "targetOrgans": [],
+      "routeExposures": []
+    }
+  ],
+  "notes": [],
+  "pictograms": [
+    {
+      "classificationId": "113575",
+      "code": "GHS02",
+      "text": "Flame",
+      "displayOrder": 1500
+    },
+    {
+      "classificationId": "113575",
+      "code": "GHS08",
+      "text": "Health hazard",
+      "displayOrder": 2702
+    },
+    {
+      "classificationId": "113575",
+      "code": "GHS07",
+      "text": "Exclamation mark",
+      "displayOrder": 3300
+    }
+  ],
+  "m_factors": [],
+  "signalWord": {
+    "signalWordCode": "Dgr",
+    "signalWordText": "Danger"
+  },
+  "atp": "ATP13",
+  "jev_decisions": [
+    {
+      "step": 1,
+      "question": "term",
+      "type": "choice",
+      "choice": "cas",
+      "probabilities": {
+        "fr": 0,
+        "cas": 1,
+        "ec": 0,
+        "en": 0
+      },
+      "confidence": 1,
+      "confidence_cas": {
+        "type": "noul",
+        "noul": 0.73
+      },
+      "state": {
+        "cas": "75-07-0",
+        "ec": "200-836-8",
+        "nom": "Code Produit : SI011.250ML – SI011.500ML"
+      }
+    },
+    {
+      "step": 2,
+      "question": "ok",
+      "type": "noul",
+      "noul": 0.47
+    },
+    {
+      "step": 3,
+      "question": "hasSCL",
+      "type": "noul",
+      "noul": 0.22
+    }
+  ],
+  "verified_at": "2026-09-21T21:15:08.035Z",
+  "verified_by": "Noa (Asus G834JY) via Jev 1.13 + Playwright 1.63.0",
+  "gmktec_fiche": "code.json",
+  "urls": {
+    "substance": "https://chem.echa.europa.eu/100.000.761",
+    "harmonised": "https://chem.echa.europa.eu/100.000.761/harmonised/113575",
+    "scl_api": "https://chem.echa.europa.eu/api-cnl-inventory/harmonized/specific-concentration-limits/113575"
+  }
+}

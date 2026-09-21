@@ -1,0 +1,360 @@
+{
+  "substance": "Acide maléique",
+  "rmlId": "100.003.403",
+  "ec": "203-742-5",
+  "cas": "110-16-7",
+  "indexNumber": "607-095-00-3",
+  "source": "https://chem.echa.europa.eu/api-substance/v1/substance/100.003.403",
+  "found_via": "GET /api-substance/v1/substance?searchText=110-16-7&pageIndex=1&pageSize=10 (Jev term cas 1)",
+  "found_by": "Jev 1.13 via OpenRouter (typesafe/jev-1.13) + Playwright 1.63.0",
+  "route_jev": [
+    "Jev term cas ({\"fr\":0,\"ec\":0,\"en\":0,\"cas\":1}) -> 110-16-7",
+    "GET /api-substance/v1/substance?searchText=110-16-7&pageIndex=1&pageSize=10 -> rmlId 100.003.403 (Maleic acid)",
+    "GET /api-substance/v1/substance/100.003.403 -> Maleic acid EC 203-742-5 CAS 110-16-7 Index 607-095-00-3",
+    "GET /api-cnl-inventory/prominent/overview/info/100.003.403 -> 1 harmonised, primary cid 119794 (607-095-00-3)",
+    "GET /api-cnl-inventory/prominent/overview/classifications/harmonised/119794 -> 5 class",
+    "GET /api-cnl-inventory/harmonized/specific-concentration-limits/119794 -> 1 SCL (Jev hasSCL 0.56)"
+  ],
+  "harmonised_url_pattern": "https://chem.echa.europa.eu/100.003.403/harmonised/119794",
+  "harmonised_overview": [
+    {
+      "classificationId": "119794",
+      "rmlId": "100.003.403",
+      "indexNumber": "607-095-00-3",
+      "type": "harmonised",
+      "totalHarmonisedClassifications": 1,
+      "totalIndustryClassifications": 29,
+      "displayOrder": 1,
+      "chemicalName": "maleic acid",
+      "atpCodeName": "ATP01",
+      "signalWord": {
+        "signalWordCode": "Wng",
+        "signalWordText": "Warning"
+      },
+      "isInheritedFlag": false
+    }
+  ],
+  "classificationId": "119794",
+  "harmonised_classifications": [
+    {
+      "classificationId": "119794",
+      "rmlId": "100.003.403",
+      "displayOrder": 3163,
+      "classifiedHazardId": "531613",
+      "hazardClassAndCategoryCode": "Acute Tox. 4 (Oral)*",
+      "hazardStatements": [
+        {
+          "hazardStatementCode": "H302",
+          "hazardStatementText": "Harmful if swallowed."
+        }
+      ],
+      "targetOrganGroups": [],
+      "routeExposureGroups": [],
+      "reasonForClassificationGroups": []
+    },
+    {
+      "classificationId": "119794",
+      "rmlId": "100.003.403",
+      "displayOrder": 3300,
+      "classifiedHazardId": "889851",
+      "hazardClassAndCategoryCode": "STOT SE 3",
+      "hazardStatements": [
+        {
+          "hazardStatementCode": "H335",
+          "hazardStatementText": "May cause respiratory irritation."
+        }
+      ],
+      "targetOrganGroups": [],
+      "routeExposureGroups": [],
+      "reasonForClassificationGroups": []
+    },
+    {
+      "classificationId": "119794",
+      "rmlId": "100.003.403",
+      "displayOrder": 3604,
+      "classifiedHazardId": "1761232",
+      "hazardClassAndCategoryCode": "Skin Irrit. 2",
+      "hazardStatements": [
+        {
+          "hazardStatementCode": "H315",
+          "hazardStatementText": "Causes skin irritation."
+        }
+      ],
+      "targetOrganGroups": [],
+      "routeExposureGroups": [],
+      "reasonForClassificationGroups": []
+    },
+    {
+      "classificationId": "119794",
+      "rmlId": "100.003.403",
+      "displayOrder": 3801,
+      "classifiedHazardId": "1995542",
+      "hazardClassAndCategoryCode": "Eye Irrit. 2",
+      "hazardStatements": [
+        {
+          "hazardStatementCode": "H319",
+          "hazardStatementText": "Causes serious eye irritation."
+        }
+      ],
+      "targetOrganGroups": [],
+      "routeExposureGroups": [],
+      "reasonForClassificationGroups": []
+    },
+    {
+      "classificationId": "119794",
+      "rmlId": "100.003.403",
+      "displayOrder": 4001,
+      "classifiedHazardId": "2016495",
+      "hazardClassAndCategoryCode": "Skin Sens. 1",
+      "hazardStatements": [
+        {
+          "hazardStatementCode": "H317",
+          "hazardStatementText": "May cause an allergic skin reaction."
+        }
+      ],
+      "targetOrganGroups": [],
+      "routeExposureGroups": [],
+      "reasonForClassificationGroups": []
+    }
+  ],
+  "harmonized_classification": [
+    {
+      "classificationId": "119794",
+      "rmlId": "100.003.403",
+      "displayOrder": 3163,
+      "classifiedHazardId": "531613",
+      "hazardClassAndCategoryCode": "Acute Tox. 4 (Oral)*",
+      "hazardStatements": [
+        {
+          "hazardStatementCode": "H302",
+          "hazardStatementText": "Harmful if swallowed."
+        }
+      ],
+      "targetOrganGroups": [],
+      "routeExposureGroups": [],
+      "reasonForClassificationGroups": []
+    },
+    {
+      "classificationId": "119794",
+      "rmlId": "100.003.403",
+      "displayOrder": 3300,
+      "classifiedHazardId": "889851",
+      "hazardClassAndCategoryCode": "STOT SE 3",
+      "hazardStatements": [
+        {
+          "hazardStatementCode": "H335",
+          "hazardStatementText": "May cause respiratory irritation."
+        }
+      ],
+      "targetOrganGroups": [],
+      "routeExposureGroups": [],
+      "reasonForClassificationGroups": []
+    },
+    {
+      "classificationId": "119794",
+      "rmlId": "100.003.403",
+      "displayOrder": 3604,
+      "classifiedHazardId": "1761232",
+      "hazardClassAndCategoryCode": "Skin Irrit. 2",
+      "hazardStatements": [
+        {
+          "hazardStatementCode": "H315",
+          "hazardStatementText": "Causes skin irritation."
+        }
+      ],
+      "targetOrganGroups": [],
+      "routeExposureGroups": [],
+      "reasonForClassificationGroups": []
+    },
+    {
+      "classificationId": "119794",
+      "rmlId": "100.003.403",
+      "displayOrder": 3801,
+      "classifiedHazardId": "1995542",
+      "hazardClassAndCategoryCode": "Eye Irrit. 2",
+      "hazardStatements": [
+        {
+          "hazardStatementCode": "H319",
+          "hazardStatementText": "Causes serious eye irritation."
+        }
+      ],
+      "targetOrganGroups": [],
+      "routeExposureGroups": [],
+      "reasonForClassificationGroups": []
+    },
+    {
+      "classificationId": "119794",
+      "rmlId": "100.003.403",
+      "displayOrder": 4001,
+      "classifiedHazardId": "2016495",
+      "hazardClassAndCategoryCode": "Skin Sens. 1",
+      "hazardStatements": [
+        {
+          "hazardStatementCode": "H317",
+          "hazardStatementText": "May cause an allergic skin reaction."
+        }
+      ],
+      "targetOrganGroups": [],
+      "routeExposureGroups": [],
+      "reasonForClassificationGroups": []
+    }
+  ],
+  "specific_concentration_limits": [
+    {
+      "classificationId": "119794",
+      "specificConcentrationLimitId": "5259307",
+      "concentrationRange": "C ≥ 0.1 %",
+      "displayOrder": 4001,
+      "hazards": [
+        {
+          "specificConcentrationLimitHazardId": "5274962",
+          "hazardClassAndCategoryCode": "Skin Sens. 1",
+          "hazardStatementCode": "H317",
+          "hazardStatementText": "May cause an allergic skin reaction.",
+          "hazardCategoryDisplayOrder": 4001
+        }
+      ]
+    }
+  ],
+  "labelling": [
+    {
+      "classificationId": "119794",
+      "rmlId": "100.003.403",
+      "labellingHazardStatementId": "3925596",
+      "displayOrder": 1,
+      "signalWord": {
+        "signalWordCode": "Wng",
+        "signalWordText": "Warning"
+      },
+      "hazardStatement": {
+        "hazardStatementCode": "H302",
+        "hazardStatementText": "Harmful if swallowed."
+      },
+      "targetOrgans": [],
+      "routeExposures": []
+    },
+    {
+      "classificationId": "119794",
+      "rmlId": "100.003.403",
+      "labellingHazardStatementId": "3925595",
+      "displayOrder": 2,
+      "signalWord": {
+        "signalWordCode": "Wng",
+        "signalWordText": "Warning"
+      },
+      "hazardStatement": {
+        "hazardStatementCode": "H335",
+        "hazardStatementText": "May cause respiratory irritation."
+      },
+      "targetOrgans": [],
+      "routeExposures": []
+    },
+    {
+      "classificationId": "119794",
+      "rmlId": "100.003.403",
+      "labellingHazardStatementId": "3925594",
+      "displayOrder": 3,
+      "signalWord": {
+        "signalWordCode": "Wng",
+        "signalWordText": "Warning"
+      },
+      "hazardStatement": {
+        "hazardStatementCode": "H315",
+        "hazardStatementText": "Causes skin irritation."
+      },
+      "targetOrgans": [],
+      "routeExposures": []
+    },
+    {
+      "classificationId": "119794",
+      "rmlId": "100.003.403",
+      "labellingHazardStatementId": "3925593",
+      "displayOrder": 4,
+      "signalWord": {
+        "signalWordCode": "Wng",
+        "signalWordText": "Warning"
+      },
+      "hazardStatement": {
+        "hazardStatementCode": "H319",
+        "hazardStatementText": "Causes serious eye irritation."
+      },
+      "targetOrgans": [],
+      "routeExposures": []
+    },
+    {
+      "classificationId": "119794",
+      "rmlId": "100.003.403",
+      "labellingHazardStatementId": "3925592",
+      "displayOrder": 5,
+      "signalWord": {
+        "signalWordCode": "Wng",
+        "signalWordText": "Warning"
+      },
+      "hazardStatement": {
+        "hazardStatementCode": "H317",
+        "hazardStatementText": "May cause an allergic skin reaction."
+      },
+      "targetOrgans": [],
+      "routeExposures": []
+    }
+  ],
+  "notes": [],
+  "pictograms": [
+    {
+      "classificationId": "119794",
+      "code": "GHS07",
+      "text": "Exclamation mark",
+      "displayOrder": 3163
+    }
+  ],
+  "m_factors": [],
+  "signalWord": {
+    "signalWordCode": "Wng",
+    "signalWordText": "Warning"
+  },
+  "atp": "ATP01",
+  "jev_decisions": [
+    {
+      "step": 1,
+      "question": "term",
+      "type": "choice",
+      "choice": "cas",
+      "probabilities": {
+        "fr": 0,
+        "ec": 0,
+        "en": 0,
+        "cas": 1
+      },
+      "confidence": 1,
+      "confidence_cas": {
+        "type": "noul",
+        "noul": 0.74
+      },
+      "state": {
+        "cas": "110-16-7",
+        "ec": "203-742-5",
+        "nom": "Acide maléique"
+      }
+    },
+    {
+      "step": 2,
+      "question": "ok",
+      "type": "noul",
+      "noul": 0.96
+    },
+    {
+      "step": 3,
+      "question": "hasSCL",
+      "type": "noul",
+      "noul": 0.56
+    }
+  ],
+  "verified_at": "2026-09-21T21:13:44.054Z",
+  "verified_by": "Noa (Asus G834JY) via Jev 1.13 + Playwright 1.63.0",
+  "gmktec_fiche": "acide_maleique.json",
+  "urls": {
+    "substance": "https://chem.echa.europa.eu/100.003.403",
+    "harmonised": "https://chem.echa.europa.eu/100.003.403/harmonised/119794",
+    "scl_api": "https://chem.echa.europa.eu/api-cnl-inventory/harmonized/specific-concentration-limits/119794"
+  }
+}

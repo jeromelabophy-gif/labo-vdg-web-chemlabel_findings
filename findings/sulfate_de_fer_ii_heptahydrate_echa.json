@@ -1,0 +1,264 @@
+{
+  "substance": "Sulfate de fer(II) heptahydraté",
+  "rmlId": "100.129.865",
+  "ec": "616-510-7",
+  "cas": "7782-63-0",
+  "indexNumber": "026-003-01-4",
+  "source": "https://chem.echa.europa.eu/api-substance/v1/substance/100.129.865",
+  "found_via": "GET /api-substance/v1/substance?searchText=7782-63-0&pageIndex=1&pageSize=10 (Jev term cas 1)",
+  "found_by": "Jev 1.13 via OpenRouter (typesafe/jev-1.13) + Playwright 1.63.0",
+  "route_jev": [
+    "Jev term cas ({\"cas\":1,\"fr\":0,\"en\":0,\"ec\":0}) -> 7782-63-0",
+    "GET /api-substance/v1/substance?searchText=7782-63-0&pageIndex=1&pageSize=10 -> rmlId 100.129.865 (iron (II) sulfate (1:1) heptahydrate sulfuric acid, iron(II) salt (1:1), heptahydrate ferrous sulfate heptahydrate)",
+    "GET /api-substance/v1/substance/100.129.865 -> iron (II) sulfate (1:1) heptahydrate sulfuric acid, iron(II) salt (1:1), heptahydrate ferrous sulfate heptahydrate EC 616-510-7 CAS 7782-63-0 Index 026-003-01-4",
+    "GET /api-cnl-inventory/prominent/overview/info/100.129.865 -> 1 harmonised, primary cid 405920 (026-003-01-4)",
+    "GET /api-cnl-inventory/prominent/overview/classifications/harmonised/405920 -> 3 class",
+    "GET /api-cnl-inventory/harmonized/specific-concentration-limits/405920 -> 1 SCL (Jev hasSCL 0.58)"
+  ],
+  "harmonised_url_pattern": "https://chem.echa.europa.eu/100.129.865/harmonised/405920",
+  "harmonised_overview": [
+    {
+      "classificationId": "405920",
+      "rmlId": "100.129.865",
+      "indexNumber": "026-003-01-4",
+      "type": "harmonised",
+      "totalHarmonisedClassifications": 1,
+      "totalIndustryClassifications": 9,
+      "displayOrder": 1,
+      "chemicalName": "iron (II) sulfate (1:1) heptahydrate; sulfuric acid, iron(II) salt (1:1), heptahydrate; ferrous sulfate heptahydrate",
+      "atpCodeName": "ATP01",
+      "signalWord": {
+        "signalWordCode": "Wng",
+        "signalWordText": "Warning"
+      },
+      "isInheritedFlag": false
+    }
+  ],
+  "classificationId": "405920",
+  "harmonised_classifications": [
+    {
+      "classificationId": "405920",
+      "rmlId": "100.129.865",
+      "displayOrder": 3163,
+      "classifiedHazardId": "535496",
+      "hazardClassAndCategoryCode": "Acute Tox. 4 (Oral)*",
+      "hazardStatements": [
+        {
+          "hazardStatementCode": "H302",
+          "hazardStatementText": "Harmful if swallowed."
+        }
+      ],
+      "targetOrganGroups": [],
+      "routeExposureGroups": [],
+      "reasonForClassificationGroups": []
+    },
+    {
+      "classificationId": "405920",
+      "rmlId": "100.129.865",
+      "displayOrder": 3604,
+      "classifiedHazardId": "2042408",
+      "hazardClassAndCategoryCode": "Skin Irrit. 2",
+      "hazardStatements": [
+        {
+          "hazardStatementCode": "H315",
+          "hazardStatementText": "Causes skin irritation."
+        }
+      ],
+      "targetOrganGroups": [],
+      "routeExposureGroups": [],
+      "reasonForClassificationGroups": []
+    },
+    {
+      "classificationId": "405920",
+      "rmlId": "100.129.865",
+      "displayOrder": 3801,
+      "classifiedHazardId": "2004162",
+      "hazardClassAndCategoryCode": "Eye Irrit. 2",
+      "hazardStatements": [
+        {
+          "hazardStatementCode": "H319",
+          "hazardStatementText": "Causes serious eye irritation."
+        }
+      ],
+      "targetOrganGroups": [],
+      "routeExposureGroups": [],
+      "reasonForClassificationGroups": []
+    }
+  ],
+  "harmonized_classification": [
+    {
+      "classificationId": "405920",
+      "rmlId": "100.129.865",
+      "displayOrder": 3163,
+      "classifiedHazardId": "535496",
+      "hazardClassAndCategoryCode": "Acute Tox. 4 (Oral)*",
+      "hazardStatements": [
+        {
+          "hazardStatementCode": "H302",
+          "hazardStatementText": "Harmful if swallowed."
+        }
+      ],
+      "targetOrganGroups": [],
+      "routeExposureGroups": [],
+      "reasonForClassificationGroups": []
+    },
+    {
+      "classificationId": "405920",
+      "rmlId": "100.129.865",
+      "displayOrder": 3604,
+      "classifiedHazardId": "2042408",
+      "hazardClassAndCategoryCode": "Skin Irrit. 2",
+      "hazardStatements": [
+        {
+          "hazardStatementCode": "H315",
+          "hazardStatementText": "Causes skin irritation."
+        }
+      ],
+      "targetOrganGroups": [],
+      "routeExposureGroups": [],
+      "reasonForClassificationGroups": []
+    },
+    {
+      "classificationId": "405920",
+      "rmlId": "100.129.865",
+      "displayOrder": 3801,
+      "classifiedHazardId": "2004162",
+      "hazardClassAndCategoryCode": "Eye Irrit. 2",
+      "hazardStatements": [
+        {
+          "hazardStatementCode": "H319",
+          "hazardStatementText": "Causes serious eye irritation."
+        }
+      ],
+      "targetOrganGroups": [],
+      "routeExposureGroups": [],
+      "reasonForClassificationGroups": []
+    }
+  ],
+  "specific_concentration_limits": [
+    {
+      "classificationId": "405920",
+      "specificConcentrationLimitId": "5269637",
+      "concentrationRange": "C ≥ 25 %",
+      "displayOrder": 3604,
+      "hazards": [
+        {
+          "specificConcentrationLimitHazardId": "5287261",
+          "hazardClassAndCategoryCode": "Skin Irrit. 2",
+          "hazardStatementCode": "H315",
+          "hazardStatementText": "Causes skin irritation.",
+          "hazardCategoryDisplayOrder": 3604
+        }
+      ]
+    }
+  ],
+  "labelling": [
+    {
+      "classificationId": "405920",
+      "rmlId": "100.129.865",
+      "labellingHazardStatementId": "4572433",
+      "displayOrder": 1,
+      "signalWord": {
+        "signalWordCode": "Wng",
+        "signalWordText": "Warning"
+      },
+      "hazardStatement": {
+        "hazardStatementCode": "H302",
+        "hazardStatementText": "Harmful if swallowed."
+      },
+      "targetOrgans": [],
+      "routeExposures": []
+    },
+    {
+      "classificationId": "405920",
+      "rmlId": "100.129.865",
+      "labellingHazardStatementId": "4572432",
+      "displayOrder": 2,
+      "signalWord": {
+        "signalWordCode": "Wng",
+        "signalWordText": "Warning"
+      },
+      "hazardStatement": {
+        "hazardStatementCode": "H315",
+        "hazardStatementText": "Causes skin irritation."
+      },
+      "targetOrgans": [],
+      "routeExposures": []
+    },
+    {
+      "classificationId": "405920",
+      "rmlId": "100.129.865",
+      "labellingHazardStatementId": "4572431",
+      "displayOrder": 3,
+      "signalWord": {
+        "signalWordCode": "Wng",
+        "signalWordText": "Warning"
+      },
+      "hazardStatement": {
+        "hazardStatementCode": "H319",
+        "hazardStatementText": "Causes serious eye irritation."
+      },
+      "targetOrgans": [],
+      "routeExposures": []
+    }
+  ],
+  "notes": [],
+  "pictograms": [
+    {
+      "classificationId": "405920",
+      "code": "GHS07",
+      "text": "Exclamation mark",
+      "displayOrder": 3163
+    }
+  ],
+  "m_factors": [],
+  "signalWord": {
+    "signalWordCode": "Wng",
+    "signalWordText": "Warning"
+  },
+  "atp": "ATP01",
+  "jev_decisions": [
+    {
+      "step": 1,
+      "question": "term",
+      "type": "choice",
+      "choice": "cas",
+      "probabilities": {
+        "cas": 1,
+        "fr": 0,
+        "en": 0,
+        "ec": 0
+      },
+      "confidence": 1,
+      "confidence_cas": {
+        "type": "noul",
+        "noul": 0.73
+      },
+      "state": {
+        "cas": "7782-63-0",
+        "ec": "616-510-7",
+        "nom": "Sulfate de fer(II) heptahydraté"
+      }
+    },
+    {
+      "step": 2,
+      "question": "ok",
+      "type": "noul",
+      "noul": 0.97
+    },
+    {
+      "step": 3,
+      "question": "hasSCL",
+      "type": "noul",
+      "noul": 0.58
+    }
+  ],
+  "verified_at": "2026-09-21T21:15:58.986Z",
+  "verified_by": "Noa (Asus G834JY) via Jev 1.13 + Playwright 1.63.0",
+  "gmktec_fiche": "fer_ii_sulfate_heptahydrate.json",
+  "urls": {
+    "substance": "https://chem.echa.europa.eu/100.129.865",
+    "harmonised": "https://chem.echa.europa.eu/100.129.865/harmonised/405920",
+    "scl_api": "https://chem.echa.europa.eu/api-cnl-inventory/harmonized/specific-concentration-limits/405920"
+  }
+}

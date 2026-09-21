@@ -1,0 +1,233 @@
+{
+  "substance": "Ammoniac",
+  "rmlId": "100.014.225",
+  "ec": "215-647-6",
+  "cas": "1336-21-6",
+  "indexNumber": "007-001-01-2",
+  "source": "https://chem.echa.europa.eu/api-substance/v1/substance/100.014.225",
+  "found_via": "GET /api-substance/v1/substance?searchText=1336-21-6&pageIndex=1&pageSize=10 (Jev term cas 1)",
+  "found_by": "Jev 1.13 via OpenRouter (typesafe/jev-1.13) + Playwright 1.63.0",
+  "route_jev": [
+    "Jev term cas ({\"en\":0,\"cas\":1,\"ec\":0,\"fr\":0}) -> 1336-21-6",
+    "GET /api-substance/v1/substance?searchText=1336-21-6&pageIndex=1&pageSize=10 -> rmlId 100.014.225 (Ammonia, aqueous solution)",
+    "GET /api-substance/v1/substance/100.014.225 -> Ammonia, aqueous solution EC 215-647-6 CAS 1336-21-6 Index 007-001-01-2",
+    "GET /api-cnl-inventory/prominent/overview/info/100.014.225 -> 1 harmonised, primary cid 108641 (007-001-01-2)",
+    "GET /api-cnl-inventory/prominent/overview/classifications/harmonised/108641 -> 2 class",
+    "GET /api-cnl-inventory/harmonized/specific-concentration-limits/108641 -> 1 SCL (Jev hasSCL 0.54)"
+  ],
+  "harmonised_url_pattern": "https://chem.echa.europa.eu/100.014.225/harmonised/108641",
+  "harmonised_overview": [
+    {
+      "classificationId": "108641",
+      "rmlId": "100.014.225",
+      "indexNumber": "007-001-01-2",
+      "type": "harmonised",
+      "totalHarmonisedClassifications": 1,
+      "totalIndustryClassifications": 54,
+      "displayOrder": 1,
+      "chemicalName": "ammonia ….%",
+      "atpCodeName": "CLP00",
+      "signalWord": {
+        "signalWordCode": "Dgr",
+        "signalWordText": "Danger"
+      },
+      "isInheritedFlag": false,
+      "harmonisedSubstanceVariant": "liquid (solution) implied by ...%"
+    }
+  ],
+  "classificationId": "108641",
+  "harmonised_classifications": [
+    {
+      "classificationId": "108641",
+      "rmlId": "100.014.225",
+      "displayOrder": 3502,
+      "classifiedHazardId": "1637988",
+      "hazardClassAndCategoryCode": "Skin Corr. 1B",
+      "hazardStatements": [
+        {
+          "hazardStatementCode": "H314",
+          "hazardStatementText": "Causes severe skin burns and eye damage."
+        }
+      ],
+      "targetOrganGroups": [],
+      "routeExposureGroups": [],
+      "reasonForClassificationGroups": []
+    },
+    {
+      "classificationId": "108641",
+      "rmlId": "100.014.225",
+      "displayOrder": 4200,
+      "classifiedHazardId": "1658220",
+      "hazardClassAndCategoryCode": "Aquatic Acute 1",
+      "hazardStatements": [
+        {
+          "hazardStatementCode": "H400",
+          "hazardStatementText": "Very toxic to aquatic life."
+        }
+      ],
+      "targetOrganGroups": [],
+      "routeExposureGroups": [],
+      "reasonForClassificationGroups": []
+    }
+  ],
+  "harmonized_classification": [
+    {
+      "classificationId": "108641",
+      "rmlId": "100.014.225",
+      "displayOrder": 3502,
+      "classifiedHazardId": "1637988",
+      "hazardClassAndCategoryCode": "Skin Corr. 1B",
+      "hazardStatements": [
+        {
+          "hazardStatementCode": "H314",
+          "hazardStatementText": "Causes severe skin burns and eye damage."
+        }
+      ],
+      "targetOrganGroups": [],
+      "routeExposureGroups": [],
+      "reasonForClassificationGroups": []
+    },
+    {
+      "classificationId": "108641",
+      "rmlId": "100.014.225",
+      "displayOrder": 4200,
+      "classifiedHazardId": "1658220",
+      "hazardClassAndCategoryCode": "Aquatic Acute 1",
+      "hazardStatements": [
+        {
+          "hazardStatementCode": "H400",
+          "hazardStatementText": "Very toxic to aquatic life."
+        }
+      ],
+      "targetOrganGroups": [],
+      "routeExposureGroups": [],
+      "reasonForClassificationGroups": []
+    }
+  ],
+  "specific_concentration_limits": [
+    {
+      "classificationId": "108641",
+      "specificConcentrationLimitId": "5260715",
+      "concentrationRange": "C ≥ 5 %",
+      "displayOrder": 3300,
+      "hazards": [
+        {
+          "specificConcentrationLimitHazardId": "5288778",
+          "hazardClassAndCategoryCode": "STOT SE 3",
+          "hazardStatementCode": "H335",
+          "hazardStatementText": "May cause respiratory irritation.",
+          "hazardCategoryDisplayOrder": 3300
+        }
+      ]
+    }
+  ],
+  "labelling": [
+    {
+      "classificationId": "108641",
+      "rmlId": "100.014.225",
+      "labellingHazardStatementId": "3932029",
+      "displayOrder": 1,
+      "signalWord": {
+        "signalWordCode": "Dgr",
+        "signalWordText": "Danger"
+      },
+      "hazardStatement": {
+        "hazardStatementCode": "H314",
+        "hazardStatementText": "Causes severe skin burns and eye damage."
+      },
+      "targetOrgans": [],
+      "routeExposures": []
+    },
+    {
+      "classificationId": "108641",
+      "rmlId": "100.014.225",
+      "labellingHazardStatementId": "3932028",
+      "displayOrder": 2,
+      "signalWord": {
+        "signalWordCode": "Dgr",
+        "signalWordText": "Danger"
+      },
+      "hazardStatement": {
+        "hazardStatementCode": "H400",
+        "hazardStatementText": "Very toxic to aquatic life."
+      },
+      "targetOrgans": [],
+      "routeExposures": []
+    }
+  ],
+  "notes": [
+    {
+      "classificationId": "108641",
+      "note": {
+        "noteId": "2725139",
+        "noteCode": "B",
+        "noteText": "Some substances (acids, bases, etc.) are placed on the market in aqueous solutions at various concentrations and, therefore, these solutions require different classification and labelling since the hazards vary at different concentrations.\nIn Part 3 entries with Note B have a general designation of the following type: ‘nitric acid ... %’.\nIn this case the supplier must state the percentage concentration of the solution on the label. Unless otherwise stated, it is assumed that the percentage concentration is calculated on a weight/weight basis."
+      },
+      "displayOrder": 2
+    }
+  ],
+  "pictograms": [
+    {
+      "classificationId": "108641",
+      "code": "GHS05",
+      "text": "Corrosion",
+      "displayOrder": 3502
+    },
+    {
+      "classificationId": "108641",
+      "code": "GHS09",
+      "text": "Environment",
+      "displayOrder": 4200
+    }
+  ],
+  "m_factors": [],
+  "signalWord": {
+    "signalWordCode": "Dgr",
+    "signalWordText": "Danger"
+  },
+  "atp": "CLP00",
+  "jev_decisions": [
+    {
+      "step": 1,
+      "question": "term",
+      "type": "choice",
+      "choice": "cas",
+      "probabilities": {
+        "en": 0,
+        "cas": 1,
+        "ec": 0,
+        "fr": 0
+      },
+      "confidence": 1,
+      "confidence_cas": {
+        "type": "noul",
+        "noul": 0.74
+      },
+      "state": {
+        "cas": "1336-21-6",
+        "ec": "215-647-6",
+        "nom": "Ammoniac"
+      }
+    },
+    {
+      "step": 2,
+      "question": "ok",
+      "type": "noul",
+      "noul": 0.88
+    },
+    {
+      "step": 3,
+      "question": "hasSCL",
+      "type": "noul",
+      "noul": 0.54
+    }
+  ],
+  "verified_at": "2026-09-21T21:14:06.643Z",
+  "verified_by": "Noa (Asus G834JY) via Jev 1.13 + Playwright 1.63.0",
+  "gmktec_fiche": "ammoniac.json",
+  "urls": {
+    "substance": "https://chem.echa.europa.eu/100.014.225",
+    "harmonised": "https://chem.echa.europa.eu/100.014.225/harmonised/108641",
+    "scl_api": "https://chem.echa.europa.eu/api-cnl-inventory/harmonized/specific-concentration-limits/108641"
+  }
+}

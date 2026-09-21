@@ -1,0 +1,83 @@
+{
+  "substance": "Thiosulfate de sodium pentahydrate",
+  "rmlId": "100.120.977",
+  "ec": "600-156-5",
+  "cas": "10102-17-7",
+  "source": "https://chem.echa.europa.eu/api-substance/v1/substance/100.120.977",
+  "found_via": "GET /api-substance/v1/substance?searchText=10102-17-7&pageIndex=1&pageSize=10 (Jev term cas 1)",
+  "found_by": "Jev 1.13 via OpenRouter (typesafe/jev-1.13) + Playwright 1.63.0",
+  "route_jev": [
+    "Jev term cas ({\"cas\":1,\"fr\":0,\"en\":0,\"ec\":0}) -> 10102-17-7",
+    "GET /api-substance/v1/substance?searchText=10102-17-7&pageIndex=1&pageSize=10 -> rmlId 100.120.977 (Thiosulfuric acid (H2S2O3), sodium salt, hydrate (1:2:5))",
+    "GET /api-substance/v1/substance/100.120.977 -> Thiosulfuric acid (H2S2O3), sodium salt, hydrate (1:2:5) EC 600-156-5 CAS 10102-17-7 Index ",
+    "GET /api-cnl-inventory/prominent/overview/info/100.120.977 -> 1 harmonised, primary cid 34591 (undefined)",
+    "GET /api-cnl-inventory/prominent/overview/classifications/harmonised/34591 -> 0 class",
+    "GET /api-cnl-inventory/harmonized/specific-concentration-limits/34591 -> 0 SCL (Jev hasSCL 0.18)"
+  ],
+  "harmonised_url_pattern": "https://chem.echa.europa.eu/100.120.977/harmonised/34591",
+  "harmonised_overview": [
+    {
+      "classificationId": "34591",
+      "rmlId": "100.120.977",
+      "type": "industry",
+      "totalHarmonisedClassifications": 0,
+      "totalIndustryClassifications": 4,
+      "displayOrder": 1,
+      "signalWord": {},
+      "notClassifiedOrNoGhs": "Not classified"
+    }
+  ],
+  "classificationId": "34591",
+  "harmonised_classifications": [],
+  "harmonized_classification": [],
+  "specific_concentration_limits": [],
+  "labelling": [],
+  "notes": [],
+  "pictograms": [],
+  "m_factors": [],
+  "signalWord": {},
+  "jev_decisions": [
+    {
+      "step": 1,
+      "question": "term",
+      "type": "choice",
+      "choice": "cas",
+      "probabilities": {
+        "cas": 1,
+        "fr": 0,
+        "en": 0,
+        "ec": 0
+      },
+      "confidence": 1,
+      "confidence_cas": {
+        "type": "noul",
+        "noul": 0.72
+      },
+      "state": {
+        "cas": "10102-17-7",
+        "ec": "231-867-5",
+        "nom": "Thiosulfate de sodium pentahydrate"
+      }
+    },
+    {
+      "step": 2,
+      "question": "ok",
+      "type": "noul",
+      "noul": 0.39
+    },
+    {
+      "step": 3,
+      "question": "hasSCL",
+      "type": "noul",
+      "noul": 0.18
+    }
+  ],
+  "verified_at": "2026-09-21T21:18:09.319Z",
+  "verified_by": "Noa (Asus G834JY) via Jev 1.13 + Playwright 1.63.0",
+  "gmktec_fiche": "thiosulfate_de_sodium_pentahydrate.json",
+  "urls": {
+    "substance": "https://chem.echa.europa.eu/100.120.977",
+    "harmonised": "https://chem.echa.europa.eu/100.120.977/harmonised/34591",
+    "scl_api": "https://chem.echa.europa.eu/api-cnl-inventory/harmonized/specific-concentration-limits/34591"
+  }
+}

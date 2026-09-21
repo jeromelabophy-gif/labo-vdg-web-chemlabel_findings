@@ -1,0 +1,88 @@
+{
+  "substance": "Hydroxyde de calcium",
+  "rmlId": "100.013.762",
+  "ec": "215-137-3",
+  "cas": "1305-62-0",
+  "source": "https://chem.echa.europa.eu/api-substance/v1/substance/100.013.762",
+  "found_via": "GET /api-substance/v1/substance?searchText=1305-62-0&pageIndex=1&pageSize=10 (Jev term cas 1)",
+  "found_by": "Jev 1.13 via OpenRouter (typesafe/jev-1.13) + Playwright 1.63.0",
+  "route_jev": [
+    "Jev term cas ({\"fr\":0,\"cas\":1,\"en\":0,\"ec\":0}) -> 1305-62-0",
+    "GET /api-substance/v1/substance?searchText=1305-62-0&pageIndex=1&pageSize=10 -> rmlId 100.013.762 (Calcium dihydroxide)",
+    "GET /api-substance/v1/substance/100.013.762 -> Calcium dihydroxide EC 215-137-3 CAS 1305-62-0 Index ",
+    "GET /api-cnl-inventory/prominent/overview/info/100.013.762 -> 1 harmonised, primary cid 222976 (undefined)",
+    "GET /api-cnl-inventory/prominent/overview/classifications/harmonised/222976 -> 0 class",
+    "GET /api-cnl-inventory/harmonized/specific-concentration-limits/222976 -> 0 SCL (Jev hasSCL 0.22)"
+  ],
+  "harmonised_url_pattern": "https://chem.echa.europa.eu/100.013.762/harmonised/222976",
+  "harmonised_overview": [
+    {
+      "classificationId": "222976",
+      "rmlId": "100.013.762",
+      "type": "industry",
+      "totalHarmonisedClassifications": 0,
+      "totalIndustryClassifications": 19,
+      "displayOrder": 1,
+      "signalWord": {
+        "signalWordCode": "Dgr",
+        "signalWordText": "Danger"
+      }
+    }
+  ],
+  "classificationId": "222976",
+  "harmonised_classifications": [],
+  "harmonized_classification": [],
+  "specific_concentration_limits": [],
+  "labelling": [],
+  "notes": [],
+  "pictograms": [],
+  "m_factors": [],
+  "signalWord": {
+    "signalWordCode": "Dgr",
+    "signalWordText": "Danger"
+  },
+  "jev_decisions": [
+    {
+      "step": 1,
+      "question": "term",
+      "type": "choice",
+      "choice": "cas",
+      "probabilities": {
+        "fr": 0,
+        "cas": 1,
+        "en": 0,
+        "ec": 0
+      },
+      "confidence": 1,
+      "confidence_cas": {
+        "type": "noul",
+        "noul": 0.65
+      },
+      "state": {
+        "cas": "1305-62-0",
+        "ec": null,
+        "nom": "Hydroxyde de calcium"
+      }
+    },
+    {
+      "step": 2,
+      "question": "ok",
+      "type": "noul",
+      "noul": 0.88
+    },
+    {
+      "step": 3,
+      "question": "hasSCL",
+      "type": "noul",
+      "noul": 0.22
+    }
+  ],
+  "verified_at": "2026-09-21T21:16:14.216Z",
+  "verified_by": "Noa (Asus G834JY) via Jev 1.13 + Playwright 1.63.0",
+  "gmktec_fiche": "hydroxyde_de_calcium.json",
+  "urls": {
+    "substance": "https://chem.echa.europa.eu/100.013.762",
+    "harmonised": "https://chem.echa.europa.eu/100.013.762/harmonised/222976",
+    "scl_api": "https://chem.echa.europa.eu/api-cnl-inventory/harmonized/specific-concentration-limits/222976"
+  }
+}

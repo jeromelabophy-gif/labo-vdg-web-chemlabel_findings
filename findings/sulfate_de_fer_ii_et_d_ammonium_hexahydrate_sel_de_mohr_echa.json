@@ -1,0 +1,88 @@
+{
+  "substance": "Sulfate de fer(II) et d'ammonium hexahydrate (sel de Mohr)",
+  "rmlId": "100.107.447",
+  "ec": "616-518-0",
+  "cas": "7783-85-9",
+  "source": "https://chem.echa.europa.eu/api-substance/v1/substance/100.107.447",
+  "found_via": "GET /api-substance/v1/substance?searchText=7783-85-9&pageIndex=1&pageSize=10 (Jev term cas 1)",
+  "found_by": "Jev 1.13 via OpenRouter (typesafe/jev-1.13) + Playwright 1.63.0",
+  "route_jev": [
+    "Jev term cas ({\"en\":0,\"cas\":1,\"ec\":0,\"fr\":0}) -> 7783-85-9",
+    "GET /api-substance/v1/substance?searchText=7783-85-9&pageIndex=1&pageSize=10 -> rmlId 100.107.447 (Sulfuric acid, ammonium iron(2+) salt (2:2:1), hexahydrate)",
+    "GET /api-substance/v1/substance/100.107.447 -> Sulfuric acid, ammonium iron(2+) salt (2:2:1), hexahydrate EC 616-518-0 CAS 7783-85-9 Index ",
+    "GET /api-cnl-inventory/prominent/overview/info/100.107.447 -> 1 harmonised, primary cid 251056 (undefined)",
+    "GET /api-cnl-inventory/prominent/overview/classifications/harmonised/251056 -> 0 class",
+    "GET /api-cnl-inventory/harmonized/specific-concentration-limits/251056 -> 0 SCL (Jev hasSCL 0.24)"
+  ],
+  "harmonised_url_pattern": "https://chem.echa.europa.eu/100.107.447/harmonised/251056",
+  "harmonised_overview": [
+    {
+      "classificationId": "251056",
+      "rmlId": "100.107.447",
+      "type": "industry",
+      "totalHarmonisedClassifications": 0,
+      "totalIndustryClassifications": 2,
+      "displayOrder": 1,
+      "signalWord": {
+        "signalWordCode": "Wng",
+        "signalWordText": "Warning"
+      }
+    }
+  ],
+  "classificationId": "251056",
+  "harmonised_classifications": [],
+  "harmonized_classification": [],
+  "specific_concentration_limits": [],
+  "labelling": [],
+  "notes": [],
+  "pictograms": [],
+  "m_factors": [],
+  "signalWord": {
+    "signalWordCode": "Wng",
+    "signalWordText": "Warning"
+  },
+  "jev_decisions": [
+    {
+      "step": 1,
+      "question": "term",
+      "type": "choice",
+      "choice": "cas",
+      "probabilities": {
+        "en": 0,
+        "cas": 1,
+        "ec": 0,
+        "fr": 0
+      },
+      "confidence": 1,
+      "confidence_cas": {
+        "type": "noul",
+        "noul": 0.69
+      },
+      "state": {
+        "cas": "7783-85-9",
+        "ec": null,
+        "nom": "Sulfate de fer(II) et d'ammonium hexahydrate (sel de Mohr)"
+      }
+    },
+    {
+      "step": 2,
+      "question": "ok",
+      "type": "noul",
+      "noul": 0.89
+    },
+    {
+      "step": 3,
+      "question": "hasSCL",
+      "type": "noul",
+      "noul": 0.24
+    }
+  ],
+  "verified_at": "2026-09-21T21:17:47.437Z",
+  "verified_by": "Noa (Asus G834JY) via Jev 1.13 + Playwright 1.63.0",
+  "gmktec_fiche": "sulfate_de_ferii_et_dammonium_hexahydrate_sel_de_mohr.json",
+  "urls": {
+    "substance": "https://chem.echa.europa.eu/100.107.447",
+    "harmonised": "https://chem.echa.europa.eu/100.107.447/harmonised/251056",
+    "scl_api": "https://chem.echa.europa.eu/api-cnl-inventory/harmonized/specific-concentration-limits/251056"
+  }
+}
