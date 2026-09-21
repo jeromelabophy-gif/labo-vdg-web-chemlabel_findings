@@ -1,0 +1,19 @@
+{
+  "substance": "Sodium hydroxide",
+  "rmlId": "100.013.805",
+  "ec": "215-185-5",
+  "cas": "1310-73-2",
+  "indexNumber": "011-002-00-6",
+  "source": "https://chem.echa.europa.eu/api-substance/v1/substance/100.013.805",
+  "example_url": "https://chem.echa.europa.eu/100.013.805/harmonised/357489?searchText=sodium+hydroxyde",
+  "classificationId": "357489 (exemple fourni)",
+  "harmonised_classifications_example": "Pattern validé pour naviguer vers permanganate",
+  "specific_concentration_limits": [
+    { "concentration_range": "C ≥ 5 %", "hazards": [{ "hazard_class": "Skin Corr. 1A", "h_statement_code": "H314" }] },
+    { "concentration_range": "2 % ≤ C < 5 %", "hazards": [{ "hazard_class": "Skin Corr. 1B", "h_statement_code": "H314" }] },
+    { "concentration_range": "0.5 % ≤ C < 2 %", "hazards": [{ "hazard_class": "Skin Irrit. 2", "h_statement_code": "H315" }] },
+    { "concentration_range": "0.5 % ≤ C < 2 %", "hazards": [{ "hazard_class": "Eye Irrit. 2", "h_statement_code": "H319" }] }
+  ],
+  "note": "Fiche de référence pour le pattern harmonised. Utilisée comme template par Jev pour trouver le permanganate.",
+  "verified_at": "2026-09-21"
+}

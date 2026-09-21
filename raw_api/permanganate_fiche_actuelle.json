@@ -1,0 +1,42 @@
+﻿{
+  "nom": "KMnOÔéä",
+  "formule": "KÔü║MnOÔéäÔü╗",
+  "nom_complet": "Permanganate de potassium",
+  "description": "Solide cristallin violet",
+  "cas": "7722-64-7",
+  "ce": "231-760-3",
+  "masse_molaire": 158.03,
+  "concentrations": [
+    {
+      "seuil_min": 0,
+      "seuil_max": 100,
+      "pictogrammes": [
+        "GHS03",
+        "GHS07",
+        "GHS09"
+      ],
+      "mention_avertissement": "DANGER",
+      "mentions_danger": [
+        "H272 - Peut aggraver un incendie ; comburant.",
+        "H302 - Nocif en cas d'ingestion.",
+        "H410 - Tres toxique pour les organismes aquatiques, entraine des effets nefastes a long terme."
+      ],
+      "conseils_prudence": [
+        "P220 - Tenir a l'ecart des vetements et d'autres matieres combustibles.",
+        "P264 - Se laver les mains soigneusement apres manipulation.",
+        "P270 - Ne pas manger, boire ou fumer en manipulant ce produit.",
+        "P280 - Porter des gants et un equipement de protection des yeux.",
+        "P301+P312 - EN CAS D'INGESTION : appeler un CENTRE ANTIPOISON ou un medecin en cas de malaise.",
+        "P391 - Recueillir le produit repandu.",
+        "P501 - Eliminer le contenu et le recipient conformement a la reglementation locale."
+      ],
+      "epi": [
+        "gants",
+        "lunettes"
+      ]
+    }
+  ],
+  "echa_classification": {
+    "specific_concentration_limits": []
+  }
+}

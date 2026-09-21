@@ -1,0 +1,77 @@
+{
+  "substance": "Potassium permanganate",
+  "rmlId": "100.028.874",
+  "ec": "231-760-3",
+  "cas": "7722-64-7",
+  "indexNumber": "025-002-00-9",
+  "source": "https://chem.echa.europa.eu/api-substance/v1/substance/100.028.874",
+  "found_via": "GET https://chem.echa.europa.eu/api-substance/v1/substance?searchText=potassium%20permanganate&pageIndex=1&pageSize=10",
+  "found_by": "Jev 1.13 via OpenRouter (typesafe/jev-1.13) + Playwright 1.63.0",
+  "route_jev": [
+    "https://chem.echa.europa.eu",
+    "searchText=potassium%20permanganate -> rmlId 100.028.874",
+    "GET /api-cnl-inventory/prominent/overview/info/100.028.874 -> classificationId 65677",
+    "GET /api-cnl-inventory/harmonized/specific-concentration-limits/65677 -> {\"items\":[]}"
+  ],
+  "harmonised_url_pattern": "https://chem.echa.europa.eu/100.028.874/harmonised/65677 (pattern from sodium hydroxide https://chem.echa.europa.eu/100.013.805/harmonised/357489?searchText=sodium+hydroxyde)",
+  "classificationId": "65677",
+  "harmonised_classifications": [
+    {
+      "hazardClassAndCategoryCode": "Ox. Sol. 2",
+      "hazardStatementCode": "H272",
+      "hazardStatementText": "May intensify fire; oxidiser."
+    },
+    {
+      "hazardClassAndCategoryCode": "Repr. 2",
+      "hazardStatementCode": "H361d",
+      "hazardStatementText": "Suspected of damaging the unborn child."
+    },
+    {
+      "hazardClassAndCategoryCode": "Acute Tox. 4 (Oral)*",
+      "hazardStatementCode": "H302",
+      "hazardStatementText": "Harmful if swallowed."
+    },
+    {
+      "hazardClassAndCategoryCode": "Aquatic Acute 1",
+      "hazardStatementCode": "H400",
+      "hazardStatementText": "Very toxic to aquatic life."
+    },
+    {
+      "hazardClassAndCategoryCode": "Aquatic Chronic 1",
+      "hazardStatementCode": "H410",
+      "hazardStatementText": "Very toxic to aquatic life with long lasting effects."
+    }
+  ],
+  "specific_concentration_limits": [],
+  "m_factors": [],
+  "acute_toxicity_estimates": [],
+  "notes": [],
+  "signalWord": "Dgr - Danger",
+  "atp": "ATP13",
+  "conclusion": "Aucune Specific Concentration Limit (SCL) en harmonisé pour le permanganate de potassium. Seules les limites génériques CLP s'appliquent. Conforme à la fiche existante backend/app/services/chemlabel/data/fiches/permanganate_de_potassium.json qui a déjà echa_classification.specific_concentration_limits: []",
+  "verified_at": "2026-09-21T22:30:00+02:00",
+  "verified_by": "Noa (Asus G834JY w1:p1) + Mika (GMKtec w2:p1) via herdr --machine GMKtec",
+  "jev_decisions": [
+    {
+      "step": 1,
+      "question": "next_action",
+      "choice": "search_via_event",
+      "probabilities": { "search_via_event": 0.97, "direct_api": 0.02, "brute_force_id": 0.01 },
+      "confidence": 0.97
+    },
+    {
+      "step": 2,
+      "question": "route",
+      "choice": "direct",
+      "probabilities": { "api": 0.01, "pattern": 0.41, "direct": 0.58 },
+      "confidence": 0.38
+    },
+    {
+      "step": 3,
+      "question": "hasSCL",
+      "type": "noul",
+      "noul": 0.04,
+      "interpretation": "Faible probabilité de SCL - confirmé par API vide"
+    }
+  ]
+}

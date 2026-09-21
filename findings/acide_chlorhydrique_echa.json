@@ -1,0 +1,80 @@
+{
+  "substance": "Acide chlorhydrique / Hydrogen chloride",
+  "rmlId": "100.028.723",
+  "ec": "231-595-7",
+  "cas": "7647-01-0",
+  "indexNumbers": ["017-002-00-2", "017-002-01-X"],
+  "source": "https://chem.echa.europa.eu/api-substance/v1/substance/100.028.723",
+  "found_via": "GET https://chem.echa.europa.eu/api-substance/v1/substance?searchText=acide%20chlorhydrique&pageIndex=1&pageSize=10 (Jev term choice fr 0.97)",
+  "found_by": "Jev 1.13 via OpenRouter (typesafe/jev-1.13) + Playwright 1.63.0",
+  "route_jev": [
+    "https://chem.echa.europa.eu",
+    "Jev term choice: acide chlorhydrique (fr) vs hydrochloric acid vs CAS",
+    "GET /api-substance/v1/substance?searchText=acide%20chlorhydrique&pageIndex=1&pageSize=10 -> rmlId 100.028.723",
+    "GET /api-cnl-inventory/prominent/overview/info/100.028.723 -> classificationId 285887 (gas) + 285888 (solution ...%)",
+    "GET /api-cnl-inventory/harmonized/specific-concentration-limits/285888 -> 4 SCL",
+    "GET /api-cnl-inventory/harmonized/specific-concentration-limits/285887 -> []"
+  ],
+  "harmonised_overview": {
+    "items": [
+      {
+        "classificationId": "285887",
+        "indexNumber": "017-002-00-2",
+        "chemicalName": "hydrogen chloride",
+        "variant": "gas (implied by Press. Gas)",
+        "atp": "CLP00"
+      },
+      {
+        "classificationId": "285888",
+        "indexNumber": "017-002-01-X",
+        "chemicalName": "hydrochloric acid ... %",
+        "variant": "liquid (solution) implied by ...%",
+        "atp": "CLP00"
+      }
+    ]
+  },
+  "harmonised_classifications": {
+    "285887_gas": [
+      { "hazardClassAndCategoryCode": "Press. Gas", "hazardStatementCode": null },
+      { "hazardClassAndCategoryCode": "Acute Tox. 3 (Inhalation)*", "hazardStatementCode": "H331" },
+      { "hazardClassAndCategoryCode": "Skin Corr. 1A", "hazardStatementCode": "H314" }
+    ],
+    "285888_solution": [
+      { "hazardClassAndCategoryCode": "STOT SE 3", "hazardStatementCode": "H335" },
+      { "hazardClassAndCategoryCode": "Skin Corr. 1B", "hazardStatementCode": "H314" }
+    ]
+  },
+  "specific_concentration_limits": {
+    "285887_gas": [],
+    "285888_solution": [
+      {
+        "concentrationRange": "C ≥ 10 %",
+        "hazards": [{ "hazardClassAndCategoryCode": "STOT SE 3", "h_code": "H335", "text": "May cause respiratory irritation." }]
+      },
+      {
+        "concentrationRange": "C ≥ 25 %",
+        "hazards": [{ "hazardClassAndCategoryCode": "Skin Corr. 1B", "h_code": "H314", "text": "Causes severe skin burns and eye damage." }]
+      },
+      {
+        "concentrationRange": "10 % ≤ C < 25 %",
+        "hazards": [
+          { "hazardClassAndCategoryCode": "Skin Irrit. 2", "h_code": "H315", "text": "Causes skin irritation." },
+          { "hazardClassAndCategoryCode": "Eye Irrit. 2", "h_code": "H319", "text": "Causes serious eye irritation." }
+        ]
+      }
+    ]
+  },
+  "conclusion": "Acide chlorhydrique a 2 harmonisées : gaz (017-002-00-2) sans SCL, et solution ...% (017-002-01-X) avec 4 SCL (C≥10% H335, C≥25% H314, 10-25% H315+H319). C'est la fiche de référence pour le seuil 10%/25% utilisé dans chemlabel. Conforme à la fiche actuelle backend/.../acide_chlorhydrique.json (vérifier seuils 10%/25%).",
+  "verified_at": "2026-09-21T22:45:00+02:00",
+  "verified_by": "Noa (Asus G834JY w1:p1)",
+  "jev_decisions": [
+    { "step": 1, "question": "term", "choice": "fr", "probabilities": { "fr": 0.97, "en": 0.02, "cas": 0.01 }, "confidence": 0.97 },
+    { "step": 2, "question": "ok", "type": "noul", "noul": 0.98, "interpretation": "Bien acide chlorhydrique CAS 7647-01-0" }
+  ],
+  "urls": {
+    "substance": "https://chem.echa.europa.eu/100.028.723",
+    "harmonised_gas": "https://chem.echa.europa.eu/100.028.723/harmonised/285887",
+    "harmonised_solution": "https://chem.echa.europa.eu/100.028.723/harmonised/285888",
+    "scl_api": "https://chem.echa.europa.eu/api-cnl-inventory/harmonized/specific-concentration-limits/285888"
+  }
+}
